@@ -162,7 +162,7 @@
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>3.49256cm</Width>
+              <Width>4.57735cm</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>3.66769cm</Width>
@@ -363,15 +363,6 @@
                     <GroupExpressions>
                       <GroupExpression>=Fields!decType.Value</GroupExpression>
                     </GroupExpressions>
-                    <Filters>
-                      <Filter>
-                        <FilterExpression>=Fields!typecode.Value</FilterExpression>
-                        <Operator>Equal</Operator>
-                        <FilterValues>
-                          <FilterValue>1</FilterValue>
-                        </FilterValues>
-                      </Filter>
-                    </Filters>
                   </Group>
                   <SortExpressions>
                     <SortExpression>
@@ -382,14 +373,15 @@
                   <TablixHeader>
                     <Size>0.85282cm</Size>
                     <CellContents>
-                      <Textbox Name="descCode2">
+                      <Textbox Name="decType">
                         <CanGrow>true</CanGrow>
                         <KeepTogether>true</KeepTogether>
                         <Paragraphs>
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>=IIf(Fields!decType.Value="نموذج 1يعمل به في الفترة الدراسية الأولى","مجال دراسي ",IIf(Fields!decType.Value="نموذج3 يعمل به في الفترة الدراسية الأولى","اختبار تحريري ","جميع المجالات"))</Value>
+                                <Value>=IIf(Fields!descCode.Value="2"
+,"مجال دراسي ",IIf(Fields!descCode.Value="1","اختبار تحريري ","جميع المجالات"))</Value>
                                 <Style>
                                   <FontFamily>arial</FontFamily>
                                   <FontWeight>Bold</FontWeight>
@@ -401,7 +393,7 @@
                             </Style>
                           </Paragraph>
                         </Paragraphs>
-                        <rd:DefaultName>descCode2</rd:DefaultName>
+                        <rd:DefaultName>decType</rd:DefaultName>
                         <Style>
                           <Border>
                             <Style>Solid</Style>
@@ -556,7 +548,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>2.80607cm</Size>
+                        <Size>3.2294cm</Size>
                         <CellContents>
                           <Textbox Name="examName1">
                             <CanGrow>true</CanGrow>
@@ -597,7 +589,7 @@
             </TablixMember>
             <TablixMember>
               <TablixHeader>
-                <Size>8.07186cm</Size>
+                <Size>8.49519cm</Size>
                 <CellContents>
                   <Textbox Name="Textbox74">
                     <CanGrow>true</CanGrow>
@@ -642,7 +634,7 @@
         <Top>1.26334cm</Top>
         <Left>0.63805cm</Left>
         <Height>3.15846cm</Height>
-        <Width>15.23211cm</Width>
+        <Width>16.74023cm</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -830,9 +822,17 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>العام الدراسي 2018 / 2019 م</Value>
+                  <Value>العام الدراسي</Value>
                   <Style>
                     <FontFamily>PT Bold Heading</FontFamily>
+                    <FontSize>18pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <Color>Blue</Color>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value> 2021- 2022 م</Value>
+                  <Style>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
                     <Color>Blue</Color>

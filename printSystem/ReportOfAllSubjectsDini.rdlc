@@ -505,7 +505,6 @@
                       <PaddingBottom>2pt</PaddingBottom>
                     </Style>
                   </Textbox>
-                  <rd:Selected>true</rd:Selected>
                 </CellContents>
               </TablixHeader>
               <TablixMembers>
@@ -824,9 +823,17 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>العام الدراسي 2018 / 2019 م</Value>
+                  <Value>العام الدراسي</Value>
                   <Style>
                     <FontFamily>PT Bold Heading</FontFamily>
+                    <FontSize>18pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <Color>Blue</Color>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value> 2021- 2022 م</Value>
+                  <Style>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
                     <Color>Blue</Color>

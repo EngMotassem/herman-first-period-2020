@@ -52,7 +52,7 @@
         <rd:DefaultName>Textbox168</rd:DefaultName>
         <Top>1.30211cm</Top>
         <Left>17.72786cm</Left>
-        <Height>1.87028cm</Height>
+        <Height>1.65861cm</Height>
         <Width>5.33999cm</Width>
         <Style>
           <Border>
@@ -87,7 +87,7 @@
         <rd:DefaultName>Textbox168</rd:DefaultName>
         <Top>1.30211cm</Top>
         <Left>2.15952cm</Left>
-        <Height>1.87028cm</Height>
+        <Height>1.65861cm</Height>
         <Width>3.71775cm</Width>
         <ZIndex>1</ZIndex>
         <Style>
@@ -121,7 +121,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox215</rd:DefaultName>
-        <Top>12.18585cm</Top>
+        <Top>12.44161cm</Top>
         <Left>2.15952cm</Left>
         <Height>1.48167cm</Height>
         <Width>11.26715cm</Width>
@@ -229,9 +229,9 @@
         </Paragraphs>
         <rd:DefaultName>Textbox2</rd:DefaultName>
         <Top>0.06944in</Top>
-        <Left>2.77252cm</Left>
+        <Left>0.42302cm</Left>
         <Height>0.94934cm</Height>
-        <Width>8.85907cm</Width>
+        <Width>11.20857cm</Width>
         <ZIndex>4</ZIndex>
         <Style>
           <Border>
@@ -315,7 +315,7 @@
         <rd:DefaultName>Textbox168</rd:DefaultName>
         <Top>1.30211cm</Top>
         <Left>6.05366cm</Left>
-        <Height>0.79431cm</Height>
+        <Height>0.93542cm</Height>
         <Width>11.49781cm</Width>
         <ZIndex>6</ZIndex>
         <Style>
@@ -336,7 +336,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>مجال دراسي </Value>
+                <Value>درجة امتحان </Value>
                 <Style>
                   <FontSize>14pt</FontSize>
                   <FontWeight>Bold</FontWeight>
@@ -351,7 +351,7 @@
         <rd:DefaultName>Textbox168</rd:DefaultName>
         <Top>2.27281cm</Top>
         <Left>13.89235cm</Left>
-        <Height>0.89958cm</Height>
+        <Height>0.68791cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>7</ZIndex>
         <Style>
@@ -372,7 +372,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>جميع المجالات </Value>
+                <Value>مجال دراسي </Value>
                 <Style>
                   <FontSize>14pt</FontSize>
                   <FontWeight>Bold</FontWeight>
@@ -387,7 +387,7 @@
         <rd:DefaultName>Textbox168</rd:DefaultName>
         <Top>2.27281cm</Top>
         <Left>10.09212cm</Left>
-        <Height>0.89958cm</Height>
+        <Height>0.68791cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>8</ZIndex>
         <Style>
@@ -408,7 +408,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>نهائي</Value>
+                <Value>جميع المجالات</Value>
                 <Style>
                   <FontSize>14pt</FontSize>
                   <FontWeight>Bold</FontWeight>
@@ -423,7 +423,7 @@
         <rd:DefaultName>Textbox168</rd:DefaultName>
         <Top>2.27281cm</Top>
         <Left>6.05366cm</Left>
-        <Height>0.89958cm</Height>
+        <Height>0.68791cm</Height>
         <Width>3.86208cm</Width>
         <ZIndex>9</ZIndex>
         <Style>
@@ -472,8 +472,8 @@
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
         <Top>1.30211cm</Top>
-        <Left>23.29144cm</Left>
-        <Height>1.87028cm</Height>
+        <Left>23.32672cm</Left>
+        <Height>1.65861cm</Height>
         <Width>1.56985cm</Width>
         <ZIndex>10</ZIndex>
         <Style>
@@ -507,9 +507,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>3.41934cm</Top>
-        <Left>17.63074cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>3.17239cm</Top>
+        <Left>17.65731cm</Left>
+        <Height>0.82902cm</Height>
         <Width>5.44582cm</Width>
         <ZIndex>11</ZIndex>
         <Style>
@@ -543,9 +543,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>3.38406cm</Top>
-        <Left>23.30015cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>3.13711cm</Top>
+        <Left>23.32672cm</Left>
+        <Height>0.8643cm</Height>
         <Width>1.56985cm</Width>
         <ZIndex>12</ZIndex>
         <Style>
@@ -579,9 +579,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>3.34878cm</Top>
-        <Left>2.15952cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>3.10183cm</Top>
+        <Left>2.18609cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.71775cm</Width>
         <ZIndex>13</ZIndex>
         <Style>
@@ -616,9 +616,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>10.79238cm</Top>
-        <Left>17.65731cm</Left>
-        <Height>1.00541cm</Height>
+        <Top>11.4362cm</Top>
+        <Left>17.73702cm</Left>
+        <Height>0.79374cm</Height>
         <Width>7.23926cm</Width>
         <ZIndex>14</ZIndex>
         <Style>
@@ -652,9 +652,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>3.41934cm</Top>
-        <Left>13.8305cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>3.17239cm</Top>
+        <Left>13.85707cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>15</ZIndex>
         <Style>
@@ -695,9 +695,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>3.41934cm</Top>
-        <Left>10.03028cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>3.17239cm</Top>
+        <Left>10.05685cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>16</ZIndex>
         <Style>
@@ -731,9 +731,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>3.38406cm</Top>
-        <Left>6.05366cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>3.13711cm</Top>
+        <Left>6.08023cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.80023cm</Width>
         <ZIndex>17</ZIndex>
         <Style>
@@ -767,9 +767,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>4.6717cm</Top>
-        <Left>17.63074cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>4.27482cm</Top>
+        <Left>17.68388cm</Left>
+        <Height>0.82902cm</Height>
         <Width>5.44582cm</Width>
         <ZIndex>18</ZIndex>
         <Style>
@@ -803,9 +803,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>4.63642cm</Top>
-        <Left>23.30016cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>4.23955cm</Top>
+        <Left>23.3533cm</Left>
+        <Height>0.8643cm</Height>
         <Width>1.56985cm</Width>
         <ZIndex>19</ZIndex>
         <Style>
@@ -839,9 +839,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>4.60114cm</Top>
-        <Left>2.15952cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>4.20427cm</Top>
+        <Left>2.21266cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.71775cm</Width>
         <ZIndex>20</ZIndex>
         <Style>
@@ -882,9 +882,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>4.6717cm</Top>
-        <Left>13.83051cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>4.27482cm</Top>
+        <Left>13.88365cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>21</ZIndex>
         <Style>
@@ -925,9 +925,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>4.6717cm</Top>
-        <Left>10.03028cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>4.27482cm</Top>
+        <Left>10.08342cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>22</ZIndex>
         <Style>
@@ -961,9 +961,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>4.63642cm</Top>
-        <Left>6.05366cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>4.23955cm</Top>
+        <Left>6.1068cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.80023cm</Width>
         <ZIndex>23</ZIndex>
         <Style>
@@ -997,9 +997,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>5.92406cm</Top>
-        <Left>17.65731cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>5.52719cm</Top>
+        <Left>17.71045cm</Left>
+        <Height>0.82902cm</Height>
         <Width>5.44582cm</Width>
         <ZIndex>24</ZIndex>
         <Style>
@@ -1033,9 +1033,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>5.92406cm</Top>
-        <Left>23.30016cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>5.52719cm</Top>
+        <Left>23.3533cm</Left>
+        <Height>0.8643cm</Height>
         <Width>1.56985cm</Width>
         <ZIndex>25</ZIndex>
         <Style>
@@ -1069,9 +1069,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>5.8535cm</Top>
-        <Left>2.18609cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>5.45662cm</Top>
+        <Left>2.23923cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.71775cm</Width>
         <ZIndex>26</ZIndex>
         <Style>
@@ -1105,9 +1105,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>5.92406cm</Top>
-        <Left>13.85707cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>5.52719cm</Top>
+        <Left>13.91021cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>27</ZIndex>
         <Style>
@@ -1141,9 +1141,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>5.92406cm</Top>
-        <Left>10.05685cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>5.52719cm</Top>
+        <Left>10.10999cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>28</ZIndex>
         <Style>
@@ -1177,9 +1177,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>5.88878cm</Top>
-        <Left>6.04495cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>5.49191cm</Top>
+        <Left>6.09809cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.80023cm</Width>
         <ZIndex>29</ZIndex>
         <Style>
@@ -1213,9 +1213,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.17642cm</Top>
-        <Left>17.63074cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>6.77955cm</Top>
+        <Left>17.68388cm</Left>
+        <Height>0.82902cm</Height>
         <Width>5.44582cm</Width>
         <ZIndex>30</ZIndex>
         <Style>
@@ -1249,9 +1249,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.14114cm</Top>
-        <Left>23.32672cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>6.74426cm</Top>
+        <Left>23.37986cm</Left>
+        <Height>0.8643cm</Height>
         <Width>1.56985cm</Width>
         <ZIndex>31</ZIndex>
         <Style>
@@ -1285,9 +1285,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.10586cm</Top>
-        <Left>2.15952cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>6.70898cm</Top>
+        <Left>2.21266cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.71775cm</Width>
         <ZIndex>32</ZIndex>
         <Style>
@@ -1321,9 +1321,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.17642cm</Top>
-        <Left>13.83051cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>6.77955cm</Top>
+        <Left>13.88365cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>33</ZIndex>
         <Style>
@@ -1357,9 +1357,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.17642cm</Top>
-        <Left>10.03028cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>6.77955cm</Top>
+        <Left>10.08342cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>34</ZIndex>
         <Style>
@@ -1393,9 +1393,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.14114cm</Top>
-        <Left>6.05366cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>6.74426cm</Top>
+        <Left>6.1068cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.80023cm</Width>
         <ZIndex>35</ZIndex>
         <Style>
@@ -1429,9 +1429,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>8.3935cm</Top>
-        <Left>17.65731cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>7.99662cm</Top>
+        <Left>17.71045cm</Left>
+        <Height>0.82902cm</Height>
         <Width>5.44582cm</Width>
         <ZIndex>36</ZIndex>
         <Style>
@@ -1465,9 +1465,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>8.35822cm</Top>
-        <Left>23.32672cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>7.96134cm</Top>
+        <Left>23.37986cm</Left>
+        <Height>0.8643cm</Height>
         <Width>1.56985cm</Width>
         <ZIndex>37</ZIndex>
         <Style>
@@ -1501,9 +1501,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>8.32294cm</Top>
-        <Left>2.18609cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>7.92606cm</Top>
+        <Left>2.23923cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.71775cm</Width>
         <ZIndex>38</ZIndex>
         <Style>
@@ -1537,9 +1537,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>8.3935cm</Top>
-        <Left>13.85707cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>7.99662cm</Top>
+        <Left>13.91021cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>39</ZIndex>
         <Style>
@@ -1573,9 +1573,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>8.3935cm</Top>
-        <Left>10.05685cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>7.99662cm</Top>
+        <Left>10.10999cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>40</ZIndex>
         <Style>
@@ -1609,9 +1609,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>8.35822cm</Top>
-        <Left>6.05366cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>7.96134cm</Top>
+        <Left>6.1068cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.80023cm</Width>
         <ZIndex>41</ZIndex>
         <Style>
@@ -1645,9 +1645,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>9.61058cm</Top>
-        <Left>17.65731cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>9.21371cm</Top>
+        <Left>17.71045cm</Left>
+        <Height>0.82902cm</Height>
         <Width>5.44582cm</Width>
         <ZIndex>42</ZIndex>
         <Style>
@@ -1681,9 +1681,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>9.5753cm</Top>
-        <Left>23.32672cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>9.17842cm</Top>
+        <Left>23.37986cm</Left>
+        <Height>0.8643cm</Height>
         <Width>1.56985cm</Width>
         <ZIndex>43</ZIndex>
         <Style>
@@ -1717,9 +1717,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>9.54002cm</Top>
-        <Left>2.18609cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>9.14314cm</Top>
+        <Left>2.23923cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.71775cm</Width>
         <ZIndex>44</ZIndex>
         <Style>
@@ -1753,9 +1753,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>9.61058cm</Top>
-        <Left>13.85707cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>9.21371cm</Top>
+        <Left>13.91021cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>45</ZIndex>
         <Style>
@@ -1789,9 +1789,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>9.61058cm</Top>
-        <Left>10.05685cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>9.21371cm</Top>
+        <Left>10.10999cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.65912cm</Width>
         <ZIndex>46</ZIndex>
         <Style>
@@ -1825,9 +1825,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>9.5753cm</Top>
-        <Left>6.04495cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>9.17842cm</Top>
+        <Left>6.09809cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.80894cm</Width>
         <ZIndex>47</ZIndex>
         <Style>
@@ -1861,9 +1861,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>10.79238cm</Top>
-        <Left>13.87823cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>11.4362cm</Top>
+        <Left>13.95794cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.6114cm</Width>
         <ZIndex>48</ZIndex>
         <Style>
@@ -1897,9 +1897,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>10.79238cm</Top>
-        <Left>10.09212cm</Left>
-        <Height>1.04069cm</Height>
+        <Top>11.4362cm</Top>
+        <Left>10.17183cm</Left>
+        <Height>0.82902cm</Height>
         <Width>3.59728cm</Width>
         <ZIndex>49</ZIndex>
         <Style>
@@ -1933,9 +1933,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>10.7571cm</Top>
-        <Left>6.08023cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>11.40092cm</Top>
+        <Left>6.15994cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.76495cm</Width>
         <ZIndex>50</ZIndex>
         <Style>
@@ -1969,9 +1969,9 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>10.72182cm</Top>
-        <Left>2.18609cm</Left>
-        <Height>1.07597cm</Height>
+        <Top>11.36564cm</Top>
+        <Left>2.2658cm</Left>
+        <Height>0.8643cm</Height>
         <Width>3.77418cm</Width>
         <ZIndex>51</ZIndex>
         <Style>
@@ -1985,8 +1985,224 @@
           <PaddingBottom>2pt</PaddingBottom>
         </Style>
       </Textbox>
+      <Textbox Name="Textbox221">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>7</Value>
+                <Style>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>10.43078cm</Top>
+        <Left>23.35329cm</Left>
+        <Height>0.8643cm</Height>
+        <Width>1.56985cm</Width>
+        <ZIndex>52</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>Khaki</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox222">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>التعليم الخاص </Value>
+                <Style>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>10.46606cm</Top>
+        <Left>17.68388cm</Left>
+        <Height>0.82902cm</Height>
+        <Width>5.44582cm</Width>
+        <ZIndex>53</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>SkyBlue</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox223">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!special1.Value</Value>
+                <Style>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>10.46606cm</Top>
+        <Left>13.88364cm</Left>
+        <Height>0.82902cm</Height>
+        <Width>3.65912cm</Width>
+        <ZIndex>54</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!jahra1.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox224">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!special2.Value</Value>
+                <Style>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>10.46606cm</Top>
+        <Left>10.08342cm</Left>
+        <Height>0.82902cm</Height>
+        <Width>3.65912cm</Width>
+        <ZIndex>55</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!jahra2.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox225">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!special3.Value</Value>
+                <Style>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>10.43078cm</Top>
+        <Left>6.07152cm</Left>
+        <Height>0.8643cm</Height>
+        <Width>3.80894cm</Width>
+        <ZIndex>56</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!jahra3.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox226">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!specialtotal.Value, "DataSet1")</Value>
+                <Style>
+                  <FontSize>14pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>10.3955cm</Top>
+        <Left>2.21266cm</Left>
+        <Height>0.8643cm</Height>
+        <Width>3.71775cm</Width>
+        <ZIndex>57</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!jahratotal.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
     </ReportItems>
-    <Height>14.36348cm</Height>
+    <Height>15.07786cm</Height>
     <Style>
       <Border>
         <Style>Solid</Style>
@@ -2165,12 +2381,11 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>العام الدراسي 2018 / 2019 م</Value>
+                  <Value>العام الدراسي 2021- 2022 م</Value>
                   <Style>
-                    <FontFamily>PT Bold Heading</FontFamily>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
-                    <Color>Blue</Color>
+                    <Color>Red</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
@@ -2196,7 +2411,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>الفترة الدراسية الأولى - القسم </Value>
+                  <Value>الفترة الدراسية الأولى - </Value>
                   <Style>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
@@ -2373,6 +2588,22 @@
           <DataField>jahratotal</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="special1">
+          <DataField>special1</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="special2">
+          <DataField>special2</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="special3">
+          <DataField>special3</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="specialtotal">
+          <DataField>specialtotal</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="totalcode1">
           <DataField>totalcode1</DataField>
           <rd:TypeName>System.String</rd:TypeName>
@@ -2408,7 +2639,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>dataDataSet</rd:DataSetName>
-        <rd:SchemaPath>D:\control 2018\test\printSystem-20180417T190509Z-001\printSystem\printSystem\dataDataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Administrator\Desktop\desktop apps\herman  first period-20190103T044244Z-001\herman  first period\herman  first period\printSystem\dataDataSet.xsd</rd:SchemaPath>
         <rd:TableName>areastatics</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />

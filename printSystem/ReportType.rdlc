@@ -726,9 +726,8 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>العام الدراسي 2018 / 2019 م</Value>
+                  <Value>العام الدراسي2021-2022 م</Value>
                   <Style>
-                    <FontFamily>PT Bold Heading</FontFamily>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
                     <Color>Red</Color>

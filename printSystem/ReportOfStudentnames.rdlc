@@ -103,7 +103,8 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=IIf(Fields!descCode.Value="1","حرمان مجال دراسي ","حرمان جميع المجالات الدراسية ")</Value>
+                              <Value>=IIf(Fields!decType.Value="نموذج 1يعمل به في الفترة الدراسية الأولى"
+,"مجال دراسي ",IIf(Fields!decType.Value="نموذج3 يعمل به في الفترة الدراسية الأولى","اختبار تحريري ","جميع المجالات"))</Value>
                               <Style>
                                 <FontSize>13pt</FontSize>
                               </Style>
@@ -608,7 +609,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>العام الدراسي  </Value>
+                  <Value>العام الدراسي</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontFamily>fanan</FontFamily>
@@ -618,21 +619,11 @@
                   </Style>
                 </TextRun>
                 <TextRun>
-                  <Value> 2018 - 2019 </Value>
+                  <Value> 2021-2022 م</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
-                    <FontFamily>arial</FontFamily>
                     <FontSize>13pt</FontSize>
-                    <TextDecoration>None</TextDecoration>
-                    <Color>#000000</Color>
-                  </Style>
-                </TextRun>
-                <TextRun>
-                  <Value> م</Value>
-                  <Style>
-                    <FontStyle>Normal</FontStyle>
-                    <FontFamily>fanan</FontFamily>
-                    <FontSize>13pt</FontSize>
+                    <FontWeight>Normal</FontWeight>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
                   </Style>

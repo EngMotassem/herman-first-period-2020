@@ -28,6 +28,12 @@ namespace printSystem
 
         }
 
+        List<String> allCodes = new List<String>();
+
+
+        dataDataSetTableAdapters.decTbl11TableAdapter adabdec111 = new dataDataSetTableAdapters.decTbl11TableAdapter();
+
+
         dataDataSetTableAdapters.examTableTableAdapter adabexam = new dataDataSetTableAdapters.examTableTableAdapter();
 
         dataDataSetTableAdapters.reportTypesTableAdapter adabeReport = new dataDataSetTableAdapters.reportTypesTableAdapter();
@@ -37,6 +43,8 @@ namespace printSystem
 
 
         dataDataSetTableAdapters.decTbl1TableAdapter adabdec1 = new dataDataSetTableAdapters.decTbl1TableAdapter();
+
+        dataDataSetTableAdapters.decTbl11TableAdapter adabdec11=new dataDataSetTableAdapters.decTbl11TableAdapter();
 
 
         dataDataSet.examTableDataTable list = new dataDataSet.examTableDataTable();
@@ -528,7 +536,7 @@ namespace printSystem
 
                         else
                         {
-                            if (!hasOldReport(txtseatNo.Text))
+                            if (!hasOldReport(Convert.ToInt32(txtseatNo.Text)))
                             {
                                 if (addtodb(dt) == 1)
                                 {
@@ -542,7 +550,7 @@ namespace printSystem
                             }
                             else
                             {
-                                MetroMessageBox.Show(this, "مسجل للطالب قرار حرمان جميع مجالات او نهائي", " موجود من قبل ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 100);
+                               MetroMessageBox.Show(this, "مسجل للطالب قرار حرمان جميع مجالات او نهائي", " موجود من قبل ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 100);
 
 
                             }                                                                                     
@@ -587,15 +595,15 @@ namespace printSystem
 
             if (cmbType.SelectedIndex == 0)
             {
-                decCode = "1";
+                decCode = "2";
 
-                // حرمان مجال دراسي نموذج 1
+                // حرمان مجال
 
 
             }
             else if (cmbType.SelectedIndex == 1)
             {
-                // حرمان من مجال دراسي   نموذج 3
+                // حرمان من درجة امتحان    نموذج 3
                 decCode = "1";
 
 
@@ -604,7 +612,7 @@ namespace printSystem
             {
                 // حرمان من جميع المجالات  نموذج 5
 
-                decCode = "2";
+                decCode = "3";
 
 
                 //  
@@ -615,7 +623,7 @@ namespace printSystem
             {
                 // حرمان من جميع المجالات  نموذج 7
 
-                decCode = "3";
+                decCode = "4";
 
 
                 // f.Show();
@@ -753,43 +761,7 @@ namespace printSystem
             String decCode = "---";
 
 
-            if (cmbType.SelectedIndex == 0)
-            {
-                decCode = "1";
-
-                // حرمان جميع المجالات  نموذج 2
-
-
-            }
-            else if (cmbType.SelectedIndex == 1)
-            {
-                // حرمان من مجال دراسي   نموذج 4
-                decCode = "1";
-
-
-            }
-            else if (cmbType.SelectedIndex == 2)
-            {
-                // حرمان من جميع المجالات  نموذج 6
-
-                decCode = "2";
-
-
-                //  
-
-
-            }
-            else if (cmbType.SelectedIndex == 3)
-            {
-                // حرمان من جميع المجالات  نموذج 7
-
-                decCode = "3";
-
-
-                // f.Show();
-
-            }
-
+            decCode = getCodeType();
 
             int desNmber = Convert.ToInt16(txtnumherman.Text);
             string eduType = typedesc.Text;
@@ -801,15 +773,14 @@ namespace printSystem
 
 
 
-            // test = adabdec.InsertQuery(Int32.Parse(txtseatNo.Text), txtname.Text, txtschool.Text, examscname, cmbcourse.Text, txtDay.Text, txtDate.Text, cmbType.Text, txtreport.Text, txtnumherman.Text, regionText.Text, lagnaNumTxt.Text, typedesc.Text, Int32.Parse(stType.Text), Int32.Parse(gender), decCode,getDepartment());
-
-          
-
-
-            test = adabdec.AddToHerman(Int32.Parse(txtseatNo.Text), txtname.Text, txtschool.Text, examscname, cmbcourse.Text, txtDay.Text, txtDate.Text, cmbType.Text, txtreport.Text, txtnumherman.Text, regionText.Text, lagnaNumTxt.Text, typedesc.Text, Int32.Parse(stType.Text), Int32.Parse(gender), decCode, getDepartment(),desNmber,eduType);
 
 
 
+
+          test = adabdec.AddToHerman(Int32.Parse(txtseatNo.Text), txtname.Text, txtschool.Text, examscname, cmbcourse.Text, txtDay.Text, txtDate.Text, cmbType.Text, txtreport.Text, txtnumherman.Text, regionText.Text, lagnaNumTxt.Text, typedesc.Text, Int32.Parse(stType.Text), Int32.Parse(gender), decCode, getDepartment(),desNmber,eduType);
+
+
+          // test = adabdec11.InsertQuery1(Int32.Parse(txtseatNo.Text), txtname.Text, txtschool.Text, examscname, cmbcourse.Text, txtDay.Text, txtDate.Text, cmbType.Text, txtreport.Text, txtnumherman.Text, regionText.Text, lagnaNumTxt.Text, typedesc.Text, Int32.Parse(stType.Text), Int32.Parse(gender), decCode, getDepartment(), desNmber, eduType,Convert.ToDecimal(lagnaNumTxt.Text));
 
             return test;
 
@@ -819,11 +790,11 @@ namespace printSystem
 
 // check if student has of final herman
 
-        private bool hasOldReport( string seatNo)
+        private bool hasOldReport( int  seatNo)
         {
 
 
-           int i=Convert.ToInt32( adabdec.CountOfHermanFinalOrAll(seatNo));
+           int i=Convert.ToInt32( adabdec.CountOfHermanFinalOrAll (seatNo));
 
 
             if (i > 0)
@@ -925,6 +896,42 @@ namespace printSystem
 
         private void txtsearch_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void metroButton4_Click(object sender, EventArgs e)
+        {
+
+
+
+            orderd cc = new orderd(allCodes: allCodes);
+
+            
+
+
+            cc.Show();
+
+        }
+
+        public void getcodes()
+        {
+
+            int count = adabdec111.FillByexamandcode(dataDataSet1.decTbl11, "اللغة الفرنسية", "2");
+
+            if (count > 0)
+            {
+                for (int i = 0; i < count; i++)
+                {
+                    String code = dataDataSet1.decTbl11.Rows[i]["type_str"].ToString();
+
+                    allCodes.Add(code);
+
+
+                }
+            }
+
+
+
 
         }
     }

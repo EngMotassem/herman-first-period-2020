@@ -30,18 +30,31 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.dataDataSet = new printSystem.dataDataSet();
             this.decTbl1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataDataSet = new printSystem.dataDataSet();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.decTbl1TableAdapter = new printSystem.dataDataSetTableAdapters.decTbl1TableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).BeginInit();
+            this.decTbl11BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.decTbl11TableAdapter = new printSystem.dataDataSetTableAdapters.decTbl11TableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.decTbl1BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decTbl11BindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // decTbl1BindingSource
+            // 
+            this.decTbl1BindingSource.DataMember = "decTbl1";
+            this.decTbl1BindingSource.DataSource = this.dataDataSet;
+            // 
+            // dataDataSet
+            // 
+            this.dataDataSet.DataSetName = "dataDataSet";
+            this.dataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // reportViewer1
             // 
             reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.decTbl1BindingSource;
+            reportDataSource1.Value = this.decTbl11BindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "printSystem.ReportOfStudentnames 2.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(39, 11);
@@ -52,19 +65,18 @@
             this.reportViewer1.TabIndex = 1;
             this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
             // 
-            // dataDataSet
-            // 
-            this.dataDataSet.DataSetName = "dataDataSet";
-            this.dataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // decTbl1BindingSource
-            // 
-            this.decTbl1BindingSource.DataMember = "decTbl1";
-            this.decTbl1BindingSource.DataSource = this.dataDataSet;
-            // 
             // decTbl1TableAdapter
             // 
             this.decTbl1TableAdapter.ClearBeforeFill = true;
+            // 
+            // decTbl11BindingSource
+            // 
+            this.decTbl11BindingSource.DataMember = "decTbl11";
+            this.decTbl11BindingSource.DataSource = this.dataDataSet;
+            // 
+            // decTbl11TableAdapter
+            // 
+            this.decTbl11TableAdapter.ClearBeforeFill = true;
             // 
             // showAllStudentsData
             // 
@@ -75,8 +87,9 @@
             this.Name = "showAllStudentsData";
             this.Text = "showAllStudentsData";
             this.Load += new System.EventHandler(this.showAllStudentsData_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decTbl1BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decTbl11BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -87,5 +100,7 @@
         private System.Windows.Forms.BindingSource decTbl1BindingSource;
         private dataDataSet dataDataSet;
         private dataDataSetTableAdapters.decTbl1TableAdapter decTbl1TableAdapter;
+        private System.Windows.Forms.BindingSource decTbl11BindingSource;
+        private dataDataSetTableAdapters.decTbl11TableAdapter decTbl11TableAdapter;
     }
 }

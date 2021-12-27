@@ -33,18 +33,23 @@ namespace printSystem
 
         private void subjectStaticsmetroButton_Click(object sender, EventArgs e)
         {
-            
 
-           // حرمان مجال الدراسي 
+            int u1=adabdec.Updateform1();
+
+           
+            int u2=adabdec.Updateform2();
+
+            int u3 = adabdec.Updateform3();
 
 
-           // حكومي بنين مجال دراسي
-           int  a = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 1, 1, "1"));
+            // حرمان امتحان  
+
+
+            // حكومي بنين مجال دراسي
+            int  a = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 1, 1, "1"));
            //  int b = Convert.ToInt32(a);
            // مجال دراسي  حكومي بنات
            int b = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 1, 2, "1"));
-
-
 
            // خاص بنين مجال دراسي
            int c = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 2, 1, "1"));
@@ -67,10 +72,9 @@ namespace printSystem
            int K = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 4, 2, "1"));
 
            int totalCodeOne = a + b + c + d + E + F + G + K;
-           // نهاية حرمان المجال الدراسي 
+           // نهاية حرمان امتحان  
 
-
-           // بداية جميع المجالات الدراسية 
+           // بداية  حرمان  مجال دراسي 
 
            // حكومي بنين 
            int a1 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 1, 1, "2"));
@@ -107,7 +111,7 @@ namespace printSystem
 
 
 
-           // بداية حرمان نهائي
+           // بداية حرمان جميع مجالات 
 
            // حكومي بنين 
            int a2 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 1, 1, "3"));
@@ -138,15 +142,59 @@ namespace printSystem
            int K2 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 4, 2, "3"));
 
 
+
+
+
+
+
            int totalCodethree = a2 + b2 + c2 + d2 + E2 + F2 + G2 + K2;
 
 
 
-        //   MetroMessageBox.Show(this, depatText.Text, "معلومات ", MessageBoxButtons.OK, MessageBoxIcon.Asterisk, 100);
 
 
 
-           DataTable dt = new DataTable();
+            // بداية حرمان نهائي
+
+            // حكومي بنين 
+            int a3 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 1, 1, "4"));
+            //  int b = Convert.ToInt32(a);
+            //   حكومي بنات
+            int b3 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 1, 2, "4"));
+
+
+
+            // خاص بنين 
+            int c3 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 2, 1, "4"));
+            //  int b = Convert.ToInt32(a);
+            // خاص بنيات 
+            int d3 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 2, 2, "4"));
+
+            // مراكز رجال 
+
+            int E3 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 3, 1, "4"));
+
+
+            // مراكز نساء 
+
+            int F3 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 3, 2, "4"));
+            // منازل رجال 
+            int G3 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 4, 1, "4"));
+
+            // منازل نساء 
+            int K3 = Convert.ToInt32(adabdec.CounterofregionbasedonExam(cmbcourse.Text, 4, 2, "4"));
+
+
+            int totalCodefour = a3 + b3 + c3 + d3 + E3 + F3 + G3 + K3;
+
+
+
+
+            //   MetroMessageBox.Show(this, depatText.Text, "معلومات ", MessageBoxButtons.OK, MessageBoxIcon.Asterisk, 100);
+
+
+
+            DataTable dt = new DataTable();
            dt.Columns.Add("govBoycode1", typeof(string));
            dt.Columns.Add("govGirlcode1", typeof(string));
            dt.Columns.Add("specialboycode1", typeof(string));
@@ -186,8 +234,24 @@ namespace printSystem
            dt.Columns.Add("homegirlCode3", typeof(string));
 
            dt.Columns.Add("totalCode3", typeof(string));
+            //---------------------------------------------
 
-           dt.Columns.Add("examName", typeof(string));
+
+            dt.Columns.Add("govboyCode4", typeof(string));
+            dt.Columns.Add("govGirlCode4", typeof(string));
+            dt.Columns.Add("specialboyCode4", typeof(string));
+            dt.Columns.Add("specialGirlCode4", typeof(string));
+
+
+            dt.Columns.Add("centerboyCode4", typeof(string));
+            dt.Columns.Add("centerGirlCode4", typeof(string));
+            dt.Columns.Add("homeboyCode4", typeof(string));
+            dt.Columns.Add("homegirlCode4", typeof(string));
+
+            dt.Columns.Add("totalCode4", typeof(string));
+            //----------------------------------------------
+
+            dt.Columns.Add("examName", typeof(string));
            dt.Columns.Add("examDate", typeof(string));
            dt.Columns.Add("examDay", typeof(string));
            dt.Columns.Add("department", typeof(string));
@@ -195,7 +259,7 @@ namespace printSystem
 
 
            //
-           int total = totalCodeOne + totalCodetwo + totalCodethree;
+           int total = totalCodeOne + totalCodetwo + totalCodethree+totalCodefour;
 
            dt.Rows.Add(new object[] { a, b, c, d, E, F, G, K, totalCodeOne,
 
@@ -203,17 +267,18 @@ namespace printSystem
 
                  a2, b2, c2, d2, E2, F2, G2, K2, totalCodethree,
 
+                 a3, b3, c3, d3, E3, F3, G3, K3, totalCodefour,
+
                  cmbcourse.Text,txtDate.Text,txtDay.Text,metroComboBox1.Text,total
 
 
            });
 
-            // AreaFormShow f = new AreaFormShow(dt);
-          //  if (metroComboBox1.SelectedIndex==1) {
+          
 
                 StaticofSubjectShow f = new StaticofSubjectShow(dt);
                 f.Show();
-           // }
+           
 
    
         }
@@ -335,23 +400,36 @@ namespace printSystem
 
             int jahracodeTotal = jahracode1 + jahracode2 + jahracode3;
 
+
+
+            // حرمانات الخاص  
+
+
+            int specialcode1 = Convert.ToInt32(adabdec.specialCounter(cmbcourse.Text, "1"));
+
+            int specialcode2 = Convert.ToInt32(adabdec.specialCounter(cmbcourse.Text, "2"));
+
+            int specialcode3 = Convert.ToInt32(adabdec.specialCounter(cmbcourse.Text, "3"));
+
+            int specialcodeTotal = specialcode1 + specialcode2 + specialcode3;
+
             // code 1 total
 
 
-            int code1Total = assemacode1 + hawalycode1 + farwanyacode1 + mubarkcode1 + jahracode1 + ahmadicode1;
+            int code1Total = assemacode1 + hawalycode1 + farwanyacode1 + mubarkcode1 + jahracode1 + ahmadicode1+specialcode1;
 
 
             // code 2 total
 
 
-            int code2Total = assemacode2 + hawalycode2 + farwanyacode2 + mubarkcode2 + jahracode2 + ahmadicode2;
+            int code2Total = assemacode2 + hawalycode2 + farwanyacode2 + mubarkcode2 + jahracode2 + ahmadicode2+specialcode2;
 
 
 
             // code 3 total
 
 
-            int code3Total = assemacode3 + hawalycode3 + farwanyacode3 + mubarkcode3 + jahracode3 + ahmadicode3;
+            int code3Total = assemacode3 + hawalycode3 + farwanyacode3 + mubarkcode3 + jahracode3 + ahmadicode3+specialcode3;
 
             // all codes Total
 
@@ -394,6 +472,12 @@ namespace printSystem
             dt.Columns.Add("jahratotal", typeof(string));
 
 
+            dt.Columns.Add("special1", typeof(string));
+            dt.Columns.Add("special2", typeof(string));
+            dt.Columns.Add("special3", typeof(string));
+            dt.Columns.Add("specialtotal", typeof(string));
+
+
             //ahamadi1
 
             dt.Columns.Add("totalcode1", typeof(string));
@@ -417,6 +501,7 @@ namespace printSystem
                 mubarkcode1, mubarkcode2, mubarkcode3, mubarkcodeTotal,
                 ahmadicode1, ahmadicode2,ahmadicode3, ahmadicodeTotal,
                 jahracode1, jahracode2, jahracode3, jahracodeTotal,
+                specialcode1,specialcode2,specialcode3,specialcodeTotal,
                 code1Total, code2Total, code3Total,allcodesTotal,
 
                  cmbcourse.Text,txtDate.Text,txtDay.Text,metroComboBox1.Text
@@ -474,7 +559,7 @@ namespace printSystem
 
              //showStudentNames f = new showStudentNames();
 
-            showStudentNames f = new showStudentNames(cmbcourse.Text, "2");
+            showStudentNames f = new showStudentNames(cmbcourse.Text, "3");
 
 
 
@@ -486,7 +571,7 @@ namespace printSystem
         {
             // showStudentNames f = new showStudentNames();
 
-            showStudentNames f = new showStudentNames(cmbcourse.Text, "1");
+            showStudentNames f = new showStudentNames(cmbcourse.Text, "2");
 
 
 
@@ -517,8 +602,42 @@ namespace printSystem
 
         private void metroButton8_Click(object sender, EventArgs e)
         {
-            showAllStudentsData f = new showAllStudentsData();
+
+
+            int u1 = adabdec.Updateform1();
+
+
+            int u2 = adabdec.Updateform2();
+
+            int u3 = adabdec.Updateform3();
+            //showAllStudentsData f = new showAllStudentsData();
+
+            showAllStudentsData f = new showAllStudentsData(text: cmbcourse.Text);
             f.Show();
+        }
+
+        private void metroButton9_Click(object sender, EventArgs e)
+        {
+            showStudentNames f = new showStudentNames(cmbcourse.Text, "1");
+
+
+
+            f.Show();
+
+        }
+
+        private void metroButton10_Click(object sender, EventArgs e)
+        {
+            shownumbers shownumbers = new shownumbers(cmbcourse.Text);
+            shownumbers.Show();
+        }
+
+        private void metroButton11_Click(object sender, EventArgs e)
+        {
+
+           showareanew shownumbers = new showareanew(cmbcourse.Text);
+            shownumbers.Show();
+
         }
     }
 }

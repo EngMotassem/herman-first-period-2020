@@ -32,6 +32,10 @@
 
 namespace printSystem.dataDataSetTableAdapters
 {
+    partial class decTbl1TableAdapter
+    {
+    }
+
     partial class decTblTableAdapter
     {
     }

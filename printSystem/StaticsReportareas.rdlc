@@ -1087,7 +1087,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>19.21356cm</Left>
         <Height>0.95278cm</Height>
         <Width>1.58821cm</Width>
@@ -1122,7 +1122,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>17.52023cm</Left>
         <Height>0.95278cm</Height>
         <Width>1.69333cm</Width>
@@ -1157,7 +1157,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>15.9076cm</Left>
         <Height>0.95278cm</Height>
         <Width>1.5475cm</Width>
@@ -1192,7 +1192,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>14.17899cm</Left>
         <Height>0.95278cm</Height>
         <Width>1.72318cm</Width>
@@ -1227,7 +1227,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>12.56093cm</Left>
         <Height>0.95278cm</Height>
         <Width>1.5475cm</Width>
@@ -1262,7 +1262,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>10.87303cm</Left>
         <Height>0.95278cm</Height>
         <Width>1.6879cm</Width>
@@ -1297,7 +1297,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>9.25497cm</Left>
         <Height>0.95278cm</Height>
         <Width>1.5475cm</Width>
@@ -1332,7 +1332,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>7.49108cm</Left>
         <Height>0.95278cm</Height>
         <Width>1.76389cm</Width>
@@ -1355,7 +1355,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>درجة المجال الدراسي</Value>
+                <Value>حرمان امتحان</Value>
                 <Style>
                   <FontSize>13pt</FontSize>
                   <FontWeight>Bold</FontWeight>
@@ -1391,7 +1391,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>درجات  جميع المجالات الدراسية</Value>
+                <Value>درجة المجال الدراسي</Value>
                 <Style>
                   <FontSize>13pt</FontSize>
                   <FontWeight>Bold</FontWeight>
@@ -1427,7 +1427,7 @@
           <Paragraph>
             <TextRuns>
               <TextRun>
-                <Value>حرمان نهائي</Value>
+                <Value>درجات  جميع المجالات الدراسية</Value>
                 <Style>
                   <FontSize>13pt</FontSize>
                   <FontWeight>Bold</FontWeight>
@@ -1440,7 +1440,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>20.96087cm</Left>
         <Height>0.96792cm</Height>
         <Width>5.31656cm</Width>
@@ -1545,7 +1545,7 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>7.8428cm</Top>
+        <Top>7.85794cm</Top>
         <Left>4.86786cm</Left>
         <Height>0.95278cm</Height>
         <Width>2.48211cm</Width>
@@ -1581,8 +1581,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>9.34183cm</Top>
-        <Left>7.49143cm</Left>
+        <Top>10.63829cm</Top>
+        <Left>7.41474cm</Left>
         <Height>0.95278cm</Height>
         <Width>18.94475cm</Width>
         <ZIndex>44</ZIndex>
@@ -1616,8 +1616,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox168</rd:DefaultName>
-        <Top>9.34183cm</Top>
-        <Left>4.86821cm</Left>
+        <Top>10.63829cm</Top>
+        <Left>4.79152cm</Left>
         <Height>0.95278cm</Height>
         <Width>2.51739cm</Width>
         <ZIndex>45</ZIndex>
@@ -1652,8 +1652,8 @@
           </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox215</rd:DefaultName>
-        <Top>10.80891cm</Top>
-        <Left>2.83585cm</Left>
+        <Top>12.15828cm</Top>
+        <Left>2.77073cm</Left>
         <Height>1.64042cm</Height>
         <Width>11.26715cm</Width>
         <ZIndex>46</ZIndex>
@@ -1822,6 +1822,355 @@
           <PaddingTop>2pt</PaddingTop>
           <PaddingBottom>2pt</PaddingBottom>
           <Direction>RTL</Direction>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox214">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>حرمان نهائي</Value>
+                <Style>
+                  <FontSize>13pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>20.93724cm</Left>
+        <Height>0.96792cm</Height>
+        <Width>5.31656cm</Width>
+        <ZIndex>50</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>Khaki</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox216">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!govBoycode4.Value, "DataSet1")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>19.18993cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>1.58821cm</Width>
+        <ZIndex>51</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox217">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!govGirlcode4.Value, "DataSet1")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>17.4966cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>1.69333cm</Width>
+        <ZIndex>52</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!govGirlCode3.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox218">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!specialboycode4.Value, "DataSet1")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>15.88397cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>1.5475cm</Width>
+        <ZIndex>53</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!specialboyCode3.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox219">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!specialgirlcode4.Value, "DataSet1")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>14.15536cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>1.72318cm</Width>
+        <ZIndex>54</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!specialGirlCode3.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox220">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!centerboycode4.Value, "DataSet1")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>12.5373cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>1.5475cm</Width>
+        <ZIndex>55</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox221">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!centergirlcode4.Value, "DataSet1")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>10.8494cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>1.6879cm</Width>
+        <ZIndex>56</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!centerGirlCode3.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox222">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!homeboycode4.Value, "DataSet1")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>9.23134cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>1.5475cm</Width>
+        <ZIndex>57</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!homeBoyCode3.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox223">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=First(Fields!homegirlcode4.Value, "DataSet1")</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>7.46745cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>1.76389cm</Width>
+        <ZIndex>58</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!homeGirlCode3.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+      <Textbox Name="Textbox224">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>=Fields!totalCode4.Value</Value>
+                <Style>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox168</rd:DefaultName>
+        <Top>9.31716cm</Top>
+        <Left>4.84423cm</Left>
+        <Height>0.95278cm</Height>
+        <Width>2.48211cm</Width>
+        <ZIndex>59</ZIndex>
+        <Style>
+          <Border>
+            <Style>Solid</Style>
+          </Border>
+          <BackgroundColor>=IIF(First(Fields!totalCode3.Value, "DataSet1")=0,"White","Silver")</BackgroundColor>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
         </Style>
       </Textbox>
     </ReportItems>
@@ -2004,12 +2353,11 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>العام الدراسي 2018 / 2019 م</Value>
+                  <Value>العام الدراسي 2021- 2022 م</Value>
                   <Style>
-                    <FontFamily>PT Bold Heading</FontFamily>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
-                    <Color>Blue</Color>
+                    <Color>Red</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
@@ -2035,7 +2383,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>الفترة الدراسية الأولى - القسم </Value>
+                  <Value>الفترة الدراسية الأولى - </Value>
                   <Style>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
@@ -2240,6 +2588,42 @@
           <DataField>department</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="govBoycode4">
+          <DataField>govBoycode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="govGirlcode4">
+          <DataField>govGirlcode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="specialboycode4">
+          <DataField>specialboycode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="specialgirlcode4">
+          <DataField>specialgirlcode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="centerboycode4">
+          <DataField>centerboycode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="centergirlcode4">
+          <DataField>centergirlcode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="homeboycode4">
+          <DataField>homeboycode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="homegirlcode4">
+          <DataField>homegirlcode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="totalCode4">
+          <DataField>totalCode4</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
         <Field Name="total">
           <DataField>total</DataField>
           <rd:TypeName>System.String</rd:TypeName>
@@ -2247,7 +2631,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>dataDataSet</rd:DataSetName>
-        <rd:SchemaPath>D:\control 2018\test\printSystem-20180417T190509Z-001\printSystem\printSystem\dataDataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Administrator\Desktop\desktop apps\herman  first period-20190103T044244Z-001\herman  first period\herman  first period\printSystem\dataDataSet.xsd</rd:SchemaPath>
         <rd:TableName>statistics</rd:TableName>
         <rd:TableAdapterFillMethod />
         <rd:TableAdapterGetDataMethod />

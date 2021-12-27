@@ -30,8 +30,8 @@ namespace printSystem
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmsetting));
             this.panel1 = new System.Windows.Forms.Panel();
             this.depatText = new MetroFramework.Controls.MetroTextBox();
@@ -87,6 +87,7 @@ namespace printSystem
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.chkprint = new System.Windows.Forms.CheckBox();
             this.dataDataSet1 = new printSystem.dataDataSet();
+            this.metroButton4 = new MetroFramework.Controls.MetroButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.devgrid)).BeginInit();
@@ -209,7 +210,7 @@ namespace printSystem
             // 
             this.metroComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.ItemHeight = 23;
+            this.metroComboBox1.ItemHeight = 24;
             this.metroComboBox1.Items.AddRange(new object[] {
             " اختر نوع الورقة",
             "حرمان مجال دراسي ",
@@ -219,7 +220,7 @@ namespace printSystem
             this.metroComboBox1.Name = "metroComboBox1";
             this.metroComboBox1.PromptText = "نوع الورقة المسحوبة";
             this.metroComboBox1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.metroComboBox1.Size = new System.Drawing.Size(232, 29);
+            this.metroComboBox1.Size = new System.Drawing.Size(232, 30);
             this.metroComboBox1.TabIndex = 25;
             this.metroComboBox1.UseSelectable = true;
             // 
@@ -358,12 +359,12 @@ namespace printSystem
             // 
             this.cmbType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmbType.FormattingEnabled = true;
-            this.cmbType.ItemHeight = 23;
+            this.cmbType.ItemHeight = 24;
             this.cmbType.Location = new System.Drawing.Point(85, 284);
             this.cmbType.Name = "cmbType";
             this.cmbType.PromptText = "اختر نوع الحرمان";
             this.cmbType.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.cmbType.Size = new System.Drawing.Size(303, 29);
+            this.cmbType.Size = new System.Drawing.Size(303, 30);
             this.cmbType.TabIndex = 18;
             this.cmbType.UseSelectable = true;
             this.cmbType.SelectedIndexChanged += new System.EventHandler(this.cmbType_SelectedIndexChanged);
@@ -749,12 +750,12 @@ namespace printSystem
             // 
             this.cmbcourse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmbcourse.FormattingEnabled = true;
-            this.cmbcourse.ItemHeight = 23;
+            this.cmbcourse.ItemHeight = 24;
             this.cmbcourse.Location = new System.Drawing.Point(85, 187);
             this.cmbcourse.Name = "cmbcourse";
             this.cmbcourse.PromptText = "اختر مادة الاختبار";
             this.cmbcourse.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.cmbcourse.Size = new System.Drawing.Size(303, 29);
+            this.cmbcourse.Size = new System.Drawing.Size(303, 30);
             this.cmbcourse.TabIndex = 3;
             this.cmbcourse.UseSelectable = true;
             this.cmbcourse.DropDown += new System.EventHandler(this.cmbcourse_DropDown);
@@ -823,14 +824,14 @@ namespace printSystem
             this.devgrid.AllowUserToResizeRows = false;
             this.devgrid.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.devgrid.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.LightSteelBlue;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.devgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightSteelBlue;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.devgrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.devgrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.devgrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -842,14 +843,14 @@ namespace printSystem
             this.shows,
             this.del,
             this.Column4});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Teal;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.devgrid.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Tahoma", 9.75F);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.devgrid.DefaultCellStyle = dataGridViewCellStyle2;
             this.devgrid.EnableHeadersVisualStyles = false;
             this.devgrid.GridColor = System.Drawing.SystemColors.ControlDarkDark;
             this.devgrid.Location = new System.Drawing.Point(22, 75);
@@ -857,6 +858,7 @@ namespace printSystem
             this.devgrid.Name = "devgrid";
             this.devgrid.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.devgrid.RowHeadersVisible = false;
+            this.devgrid.RowHeadersWidth = 51;
             this.devgrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.devgrid.Size = new System.Drawing.Size(486, 492);
             this.devgrid.TabIndex = 4;
@@ -865,6 +867,7 @@ namespace printSystem
             // Column1
             // 
             this.Column1.HeaderText = "id";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
             this.Column1.Visible = false;
             // 
@@ -872,6 +875,7 @@ namespace printSystem
             // 
             this.Column2.FillWeight = 30F;
             this.Column2.HeaderText = "م";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
             this.Column2.ReadOnly = true;
             // 
@@ -879,12 +883,14 @@ namespace printSystem
             // 
             this.Column3.FillWeight = 60F;
             this.Column3.HeaderText = "رقم الجلوس";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             this.Column3.ReadOnly = true;
             // 
             // Column5
             // 
             this.Column5.HeaderText = "الاسم";
+            this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
@@ -892,12 +898,14 @@ namespace printSystem
             // 
             this.Column6.FillWeight = 50F;
             this.Column6.HeaderText = "رقم القرار";
+            this.Column6.MinimumWidth = 6;
             this.Column6.Name = "Column6";
             this.Column6.ReadOnly = true;
             // 
             // region
             // 
             this.region.HeaderText = "المادة";
+            this.region.MinimumWidth = 6;
             this.region.Name = "region";
             // 
             // shows
@@ -905,6 +913,7 @@ namespace printSystem
             this.shows.FillWeight = 30F;
             this.shows.HeaderText = "عرض";
             this.shows.Image = ((System.Drawing.Image)(resources.GetObject("shows.Image")));
+            this.shows.MinimumWidth = 6;
             this.shows.Name = "shows";
             this.shows.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
@@ -913,6 +922,7 @@ namespace printSystem
             this.del.FillWeight = 30F;
             this.del.HeaderText = "حذف";
             this.del.Image = ((System.Drawing.Image)(resources.GetObject("del.Image")));
+            this.del.MinimumWidth = 6;
             this.del.Name = "del";
             this.del.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.del.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
@@ -920,6 +930,7 @@ namespace printSystem
             // Column4
             // 
             this.Column4.HeaderText = "Column4";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
             this.Column4.Visible = false;
             // 
@@ -1001,7 +1012,6 @@ namespace printSystem
             this.lagnaNumTxt.TabIndex = 16;
             this.lagnaNumTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.lagnaNumTxt.UseSelectable = true;
-            this.lagnaNumTxt.Visible = false;
             this.lagnaNumTxt.WaterMark = "رقم لجنة السير";
             this.lagnaNumTxt.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.lagnaNumTxt.WaterMarkFont = new System.Drawing.Font("Tahoma", 10F);
@@ -1081,6 +1091,7 @@ namespace printSystem
             this.dataGridViewImageColumn1.FillWeight = 30F;
             this.dataGridViewImageColumn1.HeaderText = "عرض";
             this.dataGridViewImageColumn1.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn1.Image")));
+            this.dataGridViewImageColumn1.MinimumWidth = 6;
             this.dataGridViewImageColumn1.Name = "dataGridViewImageColumn1";
             this.dataGridViewImageColumn1.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewImageColumn1.Width = 46;
@@ -1090,6 +1101,7 @@ namespace printSystem
             this.dataGridViewImageColumn2.FillWeight = 30F;
             this.dataGridViewImageColumn2.HeaderText = "حذف";
             this.dataGridViewImageColumn2.Image = ((System.Drawing.Image)(resources.GetObject("dataGridViewImageColumn2.Image")));
+            this.dataGridViewImageColumn2.MinimumWidth = 6;
             this.dataGridViewImageColumn2.Name = "dataGridViewImageColumn2";
             this.dataGridViewImageColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.dataGridViewImageColumn2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
@@ -1101,7 +1113,7 @@ namespace printSystem
             this.chkprint.Location = new System.Drawing.Point(934, 14);
             this.chkprint.Name = "chkprint";
             this.chkprint.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.chkprint.Size = new System.Drawing.Size(155, 20);
+            this.chkprint.Size = new System.Drawing.Size(198, 25);
             this.chkprint.TabIndex = 2;
             this.chkprint.Text = "قرار إستلام وسيلة غش";
             this.chkprint.UseVisualStyleBackColor = true;
@@ -1113,11 +1125,27 @@ namespace printSystem
             this.dataDataSet1.DataSetName = "dataDataSet";
             this.dataDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // metroButton4
+            // 
+            this.metroButton4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.metroButton4.Location = new System.Drawing.Point(1032, 28);
+            this.metroButton4.Name = "metroButton4";
+            this.metroButton4.Size = new System.Drawing.Size(94, 29);
+            this.metroButton4.Style = MetroFramework.MetroColorStyle.Black;
+            this.metroButton4.TabIndex = 27;
+            this.metroButton4.Text = "مجمع";
+            this.metroButton4.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton4.UseCustomForeColor = true;
+            this.metroButton4.UseSelectable = true;
+            this.metroButton4.UseStyleColors = true;
+            this.metroButton4.Click += new System.EventHandler(this.metroButton4_Click);
+            // 
             // frmsetting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1172, 670);
+            this.Controls.Add(this.metroButton4);
             this.Controls.Add(this.stType);
             this.Controls.Add(this.typedesc);
             this.Controls.Add(this.lagnaNumTxt);
@@ -1131,7 +1159,7 @@ namespace printSystem
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.Style = MetroFramework.MetroColorStyle.Orange;
-            this.Text = "برنامج طباعة قرارات الحرمان  - الفترة الأولى 2019-2020م";
+            this.Text = "برنامج طباعة قرارات الحرمان  - الفترة الأولى 2020-2021م";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
@@ -1203,6 +1231,7 @@ namespace printSystem
         private System.Windows.Forms.DataGridViewImageColumn del;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private MetroFramework.Controls.MetroTextBox metroTextBox1;
+        private MetroFramework.Controls.MetroButton metroButton4;
     }
 }
 

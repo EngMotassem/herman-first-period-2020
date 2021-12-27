@@ -448,7 +448,7 @@
               </Group>
               <SortExpressions>
                 <SortExpression>
-                  <Value>=Fields!region.Value</Value>
+                  <Value>=Fields!eduType.Value</Value>
                 </SortExpression>
               </SortExpressions>
               <TablixMembers>
@@ -491,7 +491,7 @@
                   <TablixMembers>
                     <TablixMember>
                       <TablixHeader>
-                        <Size>2.66779cm</Size>
+                        <Size>3.09112cm</Size>
                         <CellContents>
                           <Textbox Name="region">
                             <CanGrow>true</CanGrow>
@@ -536,7 +536,7 @@
             </TablixMember>
             <TablixMember>
               <TablixHeader>
-                <Size>3.62614cm</Size>
+                <Size>4.04947cm</Size>
                 <CellContents>
                   <Textbox Name="Textbox24">
                     <CanGrow>true</CanGrow>
@@ -584,7 +584,7 @@
         <Top>1.46618cm</Top>
         <Left>3.93961cm</Left>
         <Height>3.10556cm</Height>
-        <Width>7.14029cm</Width>
+        <Width>7.56362cm</Width>
         <ZIndex>1</ZIndex>
         <Style>
           <Border>
@@ -774,9 +774,17 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>العام الدراسي 2018 / 2019 م</Value>
+                  <Value>العام الدراسي</Value>
                   <Style>
                     <FontFamily>PT Bold Heading</FontFamily>
+                    <FontSize>18pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                    <Color>Blue</Color>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value> 2021- 2022 م</Value>
+                  <Style>
                     <FontSize>18pt</FontSize>
                     <FontWeight>Bold</FontWeight>
                     <Color>Blue</Color>
@@ -956,10 +964,18 @@
           <DataField>typecode</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="desKind">
+          <DataField>desKind</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="eduType">
+          <DataField>eduType</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>dataDataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\HI\Downloads\29-5-2018-20180530T093733Z-001\29-5-2018\test\printSystem-20180417T190509Z-001\printSystem\printSystem\dataDataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Administrator\Desktop\desktop apps\herman  first period-20190103T044244Z-001\herman  first period\herman  first period\printSystem\dataDataSet.xsd</rd:SchemaPath>
         <rd:TableName>decTbl</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>

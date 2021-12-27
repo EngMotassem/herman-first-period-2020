@@ -87,6 +87,12 @@
     <Compile Include="AreaFormShow.Designer.cs">
       <DependentUpon>AreaFormShow.cs</DependentUpon>
     </Compile>
+    <Compile Include="collections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="collections.Designer.cs">
+      <DependentUpon>collections.cs</DependentUpon>
+    </Compile>
     <Compile Include="dataDataSet.cs">
       <DependentUpon>dataDataSet.xsd</DependentUpon>
     </Compile>
@@ -149,6 +155,12 @@
     <Compile Include="hermanShow.Designer.cs">
       <DependentUpon>hermanShow.cs</DependentUpon>
     </Compile>
+    <Compile Include="orderd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="orderd.Designer.cs">
+      <DependentUpon>orderd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="showAllLagna.cs">
@@ -168,6 +180,18 @@
     </Compile>
     <Compile Include="ShowareaCollection.Designer.cs">
       <DependentUpon>ShowareaCollection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showareanew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showareanew.Designer.cs">
+      <DependentUpon>showareanew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="showAreas-2020.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showAreas-2020.Designer.cs">
+      <DependentUpon>showAreas-2020.cs</DependentUpon>
     </Compile>
     <Compile Include="showareassubjects.cs">
       <SubType>Form</SubType>
@@ -192,6 +216,12 @@
     </Compile>
     <Compile Include="ShowNewRe.Designer.cs">
       <DependentUpon>ShowNewRe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="shownumbers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="shownumbers.Designer.cs">
+      <DependentUpon>shownumbers.cs</DependentUpon>
     </Compile>
     <Compile Include="showStudentNames.cs">
       <SubType>Form</SubType>
@@ -224,6 +254,9 @@
     <EmbeddedResource Include="AreaFormShow.resx">
       <DependentUpon>AreaFormShow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="collections.resx">
+      <DependentUpon>collections.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="finalFormmahder.resx">
       <DependentUpon>finalFormmahder.cs</DependentUpon>
     </EmbeddedResource>
@@ -251,6 +284,9 @@
     <EmbeddedResource Include="hermanShow.resx">
       <DependentUpon>hermanShow.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="orderd.resx">
+      <DependentUpon>orderd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -264,9 +300,18 @@
     <EmbeddedResource Include="RepEstlam.rdlc" />
     <EmbeddedResource Include="allLagna.rdlc" />
     <EmbeddedResource Include="bbb.rdlc" />
+    <EmbeddedResource Include="RepMahdar - Copy.rdlc" />
     <EmbeddedResource Include="Reporther.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+    <EmbeddedResource Include="ReportOfALLAReasCollection - Copy.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportOfAllSubjects - Copy.rdlc" />
+    <EmbeddedResource Include="ReportOfStudentnames 6.rdlc" />
+    <EmbeddedResource Include="ReportOfStudentnames 5.rdlc" />
+    <EmbeddedResource Include="ReportOfStudentnames 4.rdlc" />
+    <EmbeddedResource Include="ReportOfStudentnames 3.rdlc" />
     <EmbeddedResource Include="ReportOfStudentnames 2.rdlc" />
     <EmbeddedResource Include="Reportchart.rdlc">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -288,6 +333,12 @@
     <EmbeddedResource Include="ShowareaCollection.resx">
       <DependentUpon>ShowareaCollection.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="showareanew.resx">
+      <DependentUpon>showareanew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showAreas-2020.resx">
+      <DependentUpon>showAreas-2020.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="showareassubjects.resx">
       <DependentUpon>showareassubjects.cs</DependentUpon>
     </EmbeddedResource>
@@ -299,6 +350,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ShowNewRe.resx">
       <DependentUpon>ShowNewRe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="shownumbers.resx">
+      <DependentUpon>shownumbers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="showStudentNames.resx">
       <DependentUpon>showStudentNames.cs</DependentUpon>
