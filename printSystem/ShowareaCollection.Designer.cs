@@ -30,53 +30,68 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
-            this.dataDataSet = new printSystem.dataDataSet();
             this.decTblBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.dataDataSet = new printSystem.dataDataSet();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.decTblTableAdapter = new printSystem.dataDataSetTableAdapters.decTblTableAdapter();
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).BeginInit();
+            this.decTbl3BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.decTbl3TableAdapter = new printSystem.dataDataSetTableAdapters.decTbl3TableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.decTblBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decTbl3BindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // reportViewer1
-            // 
-            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.decTblBindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "printSystem.ReportOfALLAReasCollection.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(780, 525);
-            this.reportViewer1.TabIndex = 2;
-            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
-            // 
-            // dataDataSet
-            // 
-            this.dataDataSet.DataSetName = "dataDataSet";
-            this.dataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // decTblBindingSource
             // 
             this.decTblBindingSource.DataMember = "decTbl";
             this.decTblBindingSource.DataSource = this.dataDataSet;
             // 
+            // dataDataSet
+            // 
+            this.dataDataSet.DataSetName = "dataDataSet";
+            this.dataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.decTbl3BindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "printSystem.ReportOfALLAReasCollection.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(693, 420);
+            this.reportViewer1.TabIndex = 2;
+            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
+            // 
             // decTblTableAdapter
             // 
             this.decTblTableAdapter.ClearBeforeFill = true;
             // 
+            // decTbl3BindingSource
+            // 
+            this.decTbl3BindingSource.DataMember = "decTbl3";
+            this.decTbl3BindingSource.DataSource = this.dataDataSet;
+            // 
+            // decTbl3TableAdapter
+            // 
+            this.decTbl3TableAdapter.ClearBeforeFill = true;
+            // 
             // ShowareaCollection
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(780, 525);
+            this.ClientSize = new System.Drawing.Size(693, 420);
             this.Controls.Add(this.reportViewer1);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ShowareaCollection";
             this.Text = "ShowareaCollection";
             this.Load += new System.EventHandler(this.ShowareaCollection_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decTblBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decTbl3BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -87,5 +102,7 @@
         private System.Windows.Forms.BindingSource decTblBindingSource;
         private dataDataSet dataDataSet;
         private dataDataSetTableAdapters.decTblTableAdapter decTblTableAdapter;
+        private System.Windows.Forms.BindingSource decTbl3BindingSource;
+        private dataDataSetTableAdapters.decTbl3TableAdapter decTbl3TableAdapter;
     }
 }

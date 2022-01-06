@@ -1159,7 +1159,7 @@ namespace printSystem
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.RightToLeftLayout = true;
             this.Style = MetroFramework.MetroColorStyle.Orange;
-            this.Text = "برنامج طباعة قرارات الحرمان  - الفترة الأولى 2020-2021م";
+            this.Text = "نماذج القانوينة 2021-2022 م";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

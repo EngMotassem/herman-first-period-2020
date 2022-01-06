@@ -19,8 +19,8 @@ namespace printSystem
 
         private void showareasubjectsDini_Load(object sender, EventArgs e)
         {
-            this.decTblTableAdapter.FillBy1(this.dataDataSet.decTbl);
-            //  this.decTblTableAdapter.FillByDepatrment(this.dataDataSet.decTbl, "1");
+            //this.decTblTableAdapter.FillBy1(this.dataDataSet.decTbl);
+             this.decTblTableAdapter.FillByDepatrment(this.dataDataSet.decTbl, "3");
 
 
             this.reportViewer1.RefreshReport(); 

@@ -170,9 +170,9 @@
         </Paragraphs>
         <rd:DefaultName>dec_desc</rd:DefaultName>
         <Top>9.97579cm</Top>
-        <Left>2.16554cm</Left>
-        <Height>1.62012cm</Height>
-        <Width>16.86495cm</Width>
+        <Left>1.92709cm</Left>
+        <Height>1.74712cm</Height>
+        <Width>17.1034cm</Width>
         <ZIndex>4</ZIndex>
         <Style>
           <Border>
@@ -1050,7 +1050,7 @@
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>7.64211in</Top>
         <Left>4.99231in</Left>
-        <Height>1.0697in</Height>
+        <Height>1.01414in</Height>
         <Width>2.50001in</Width>
         <ZIndex>7</ZIndex>
         <Style>
@@ -1153,23 +1153,6 @@
               <TextAlign>Center</TextAlign>
             </Style>
           </Paragraph>
-          <Paragraph>
-            <TextRuns>
-              <TextRun>
-                <Value />
-                <Style>
-                  <FontStyle>Normal</FontStyle>
-                  <FontFamily>arial</FontFamily>
-                  <FontSize>17pt</FontSize>
-                  <FontWeight>Bold</FontWeight>
-                  <TextDecoration>Underline</TextDecoration>
-                </Style>
-              </TextRun>
-            </TextRuns>
-            <Style>
-              <TextAlign>Center</TextAlign>
-            </Style>
-          </Paragraph>
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>0.06944in</Top>
@@ -1190,7 +1173,7 @@
         </Style>
       </Textbox>
     </ReportItems>
-    <Height>22.2691cm</Height>
+    <Height>22.16327cm</Height>
     <Style>
       <Border>
         <Style>Solid</Style>

@@ -380,8 +380,8 @@
                           <Paragraph>
                             <TextRuns>
                               <TextRun>
-                                <Value>=IIf(Fields!descCode.Value="2"
-,"مجال دراسي ",IIf(Fields!descCode.Value="1","اختبار تحريري ","جميع المجالات"))</Value>
+                                <Value>=IIf(Fields!decType.Value="نموذج 1يعمل به في الفترة الدراسية الأولى"
+,"مجال دراسي ",IIf(Fields!decType.Value="نموذج3 يعمل به في الفترة الدراسية الأولى","اختبار تحريري ","جميع المجالات"))</Value>
                                 <Style>
                                   <FontFamily>arial</FontFamily>
                                   <FontWeight>Bold</FontWeight>
@@ -1023,7 +1023,7 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>dataDataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Administrator\Desktop\desktop apps\herman  first period-20190103T044244Z-001\herman  first period\printSystem\dataDataSet.xsd</rd:SchemaPath>
+        <rd:SchemaPath>C:\Users\Hp\Desktop\herman  first period-20190103T044244Z-001\herman  first period\herman  first period\printSystem\dataDataSet.xsd</rd:SchemaPath>
         <rd:TableName>decTbl</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>

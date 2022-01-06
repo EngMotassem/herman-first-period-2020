@@ -310,13 +310,10 @@ namespace printSystem
                         dataDataSet.decTblDataTable list1 = dataDataSet1.decTbl;
                         if (list1.Count != 0)
                         {
-
-
-
                             txtname.Text = list1[0].stName;
                             txtschool.Text = list1[0].scName;
                             txtseatNo.Text = list1[0].seatNo.ToString();
-                               cmbcourse.Text = list1[0].examName;
+                             cmbcourse.Text = list1[0].examName;
 
 
 
@@ -338,7 +335,7 @@ namespace printSystem
 
 
                             txtDay.Text = dateTime.ToString("dddd", new System.Globalization.CultureInfo("ar-AE"));
-                          //  txtDay.Text = list1[0].examday;
+                            //  txtDay.Text = list1[0].examday;
 
                             //cmbcourse.Text = list1[0].examName;
 
@@ -346,11 +343,11 @@ namespace printSystem
 
                             adabstu.FillBy(dataDataSet1.studentData, Convert.ToInt32(txtseatNo.Text));
 
-                             adabexam.FillBytype(dataDataSet1.examTable, Convert.ToInt32(dataDataSet1.studentData.Rows[0][4].ToString()));
-                             cmbcourse.DisplayMember = "examName";
-                             cmbcourse.ValueMember = "examId";
-                             list = dataDataSet1.examTable;
-                             cmbcourse.DataSource = list;
+                            adabexam.FillBytype(dataDataSet1.examTable, Convert.ToInt32(dataDataSet1.studentData.Rows[0][4].ToString()));
+                            cmbcourse.DisplayMember = "examName";
+                            cmbcourse.ValueMember = "examId";
+                            list = dataDataSet1.examTable;
+                            cmbcourse.DataSource = list;
                             cmbcourse.Text = list1[0].examName;
 
 

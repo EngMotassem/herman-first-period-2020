@@ -19,8 +19,10 @@ namespace printSystem
 
         private void ShowareaCollection_Load(object sender, EventArgs e)
         {
-            this.decTblTableAdapter.FillBy2(this.dataDataSet.decTbl);
-            //  this.decTblTableAdapter.FillByDepatrment(this.dataDataSet.decTbl, "1");
+            // TODO: This line of code loads data into the 'dataDataSet.decTbl3' table. You can move, or remove it, as needed.
+          //  this.decTbl3TableAdapter.Fill(this.dataDataSet.decTbl3);
+            /// / this.decTblTableAdapter.FillBy2(this.dataDataSet.decTbl);
+            this.decTbl3TableAdapter.FillBy(this.dataDataSet.decTbl3, "1");
 
 
             this.reportViewer1.RefreshReport();

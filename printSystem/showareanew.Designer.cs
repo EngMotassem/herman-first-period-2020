@@ -30,33 +30,43 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
-            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.decTbl11BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataDataSet = new printSystem.dataDataSet();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
             this.decTbl1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.decTbl1TableAdapter = new printSystem.dataDataSetTableAdapters.decTbl1TableAdapter();
-            this.decTbl11BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.decTbl11TableAdapter = new printSystem.dataDataSetTableAdapters.decTbl11TableAdapter();
+            this.decTbl3BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.decTbl3TableAdapter = new printSystem.dataDataSetTableAdapters.decTbl3TableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.decTbl11BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.decTbl1BindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.decTbl11BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decTbl3BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // reportViewer1
+            // decTbl11BindingSource
             // 
-            reportDataSource1.Name = "DataSet1";
-            reportDataSource1.Value = this.decTbl11BindingSource;
-            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
-            this.reportViewer1.LocalReport.ReportEmbeddedResource = "printSystem.ReportOfStudentnames 5.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(12, 12);
-            this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.ServerReport.BearerToken = null;
-            this.reportViewer1.Size = new System.Drawing.Size(776, 426);
-            this.reportViewer1.TabIndex = 0;
+            this.decTbl11BindingSource.DataMember = "decTbl11";
+            this.decTbl11BindingSource.DataSource = this.dataDataSet;
             // 
             // dataDataSet
             // 
             this.dataDataSet.DataSetName = "dataDataSet";
             this.dataDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // reportViewer1
+            // 
+            reportDataSource1.Name = "DataSet1";
+            reportDataSource1.Value = this.decTbl3BindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "printSystem.ReportOfStudentnames 5.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(16, 15);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.ServerReport.BearerToken = null;
+            this.reportViewer1.Size = new System.Drawing.Size(1034, 524);
+            this.reportViewer1.TabIndex = 0;
+            this.reportViewer1.Load += new System.EventHandler(this.reportViewer1_Load);
             // 
             // decTbl1BindingSource
             // 
@@ -67,27 +77,33 @@
             // 
             this.decTbl1TableAdapter.ClearBeforeFill = true;
             // 
-            // decTbl11BindingSource
-            // 
-            this.decTbl11BindingSource.DataMember = "decTbl11";
-            this.decTbl11BindingSource.DataSource = this.dataDataSet;
-            // 
             // decTbl11TableAdapter
             // 
             this.decTbl11TableAdapter.ClearBeforeFill = true;
             // 
+            // decTbl3BindingSource
+            // 
+            this.decTbl3BindingSource.DataMember = "decTbl3";
+            this.decTbl3BindingSource.DataSource = this.dataDataSet;
+            // 
+            // decTbl3TableAdapter
+            // 
+            this.decTbl3TableAdapter.ClearBeforeFill = true;
+            // 
             // showareanew
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.reportViewer1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "showareanew";
             this.Text = "showareanew";
             this.Load += new System.EventHandler(this.showareanew_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.decTbl11BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.decTbl1BindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.decTbl11BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.decTbl3BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -100,5 +116,7 @@
         private dataDataSetTableAdapters.decTbl1TableAdapter decTbl1TableAdapter;
         private System.Windows.Forms.BindingSource decTbl11BindingSource;
         private dataDataSetTableAdapters.decTbl11TableAdapter decTbl11TableAdapter;
+        private System.Windows.Forms.BindingSource decTbl3BindingSource;
+        private dataDataSetTableAdapters.decTbl3TableAdapter decTbl3TableAdapter;
     }
 }

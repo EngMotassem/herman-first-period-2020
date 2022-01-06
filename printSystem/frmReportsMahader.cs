@@ -88,7 +88,7 @@ namespace printSystem
         {
             reportViewer1.PrintDialog();
 
-            SavePDF(reportViewer1, @"C:\destination\NewDirectory\");
+          //  SavePDF(reportViewer1, @"C:\destination\NewDirectory\");
           // reportViewer1.PrinterSettings.IsDirectPrintingSupported();
         }
     }
