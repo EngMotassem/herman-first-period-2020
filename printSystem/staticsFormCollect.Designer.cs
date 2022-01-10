@@ -38,6 +38,7 @@
             this.cmbcourse = new MetroFramework.Controls.MetroComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.metroButton12 = new MetroFramework.Controls.MetroButton();
             this.metroButton11 = new MetroFramework.Controls.MetroButton();
             this.metroButton10 = new MetroFramework.Controls.MetroButton();
             this.metroButton9 = new MetroFramework.Controls.MetroButton();
@@ -72,6 +73,7 @@
             this.AreaMetro.UseCustomForeColor = true;
             this.AreaMetro.UseSelectable = true;
             this.AreaMetro.UseStyleColors = true;
+            this.AreaMetro.Visible = false;
             this.AreaMetro.Click += new System.EventHandler(this.AreaMetro_Click);
             // 
             // txtDay
@@ -80,10 +82,10 @@
             // 
             // 
             this.txtDay.CustomButton.Image = null;
-            this.txtDay.CustomButton.Location = new System.Drawing.Point(319, 1);
+            this.txtDay.CustomButton.Location = new System.Drawing.Point(239, 1);
             this.txtDay.CustomButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDay.CustomButton.Name = "";
-            this.txtDay.CustomButton.Size = new System.Drawing.Size(39, 36);
+            this.txtDay.CustomButton.Size = new System.Drawing.Size(29, 29);
             this.txtDay.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtDay.CustomButton.TabIndex = 1;
             this.txtDay.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -127,6 +129,7 @@
             this.subjectStaticsmetroButton.UseCustomForeColor = true;
             this.subjectStaticsmetroButton.UseSelectable = true;
             this.subjectStaticsmetroButton.UseStyleColors = true;
+            this.subjectStaticsmetroButton.Visible = false;
             this.subjectStaticsmetroButton.Click += new System.EventHandler(this.subjectStaticsmetroButton_Click);
             // 
             // txtDate
@@ -135,10 +138,10 @@
             // 
             // 
             this.txtDate.CustomButton.Image = null;
-            this.txtDate.CustomButton.Location = new System.Drawing.Point(313, 2);
+            this.txtDate.CustomButton.Location = new System.Drawing.Point(235, 2);
             this.txtDate.CustomButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDate.CustomButton.Name = "";
-            this.txtDate.CustomButton.Size = new System.Drawing.Size(41, 38);
+            this.txtDate.CustomButton.Size = new System.Drawing.Size(31, 31);
             this.txtDate.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.txtDate.CustomButton.TabIndex = 1;
             this.txtDate.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -234,6 +237,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(234)))), ((int)(((byte)(238)))));
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.metroButton12);
             this.panel1.Controls.Add(this.metroButton11);
             this.panel1.Controls.Add(this.metroButton10);
             this.panel1.Controls.Add(this.metroButton9);
@@ -262,6 +266,28 @@
             this.panel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.panel1.Size = new System.Drawing.Size(1173, 608);
             this.panel1.TabIndex = 25;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // metroButton12
+            // 
+            this.metroButton12.BackColor = System.Drawing.Color.Navy;
+            this.metroButton12.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.metroButton12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.metroButton12.Location = new System.Drawing.Point(950, 109);
+            this.metroButton12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroButton12.Name = "metroButton12";
+            this.metroButton12.Size = new System.Drawing.Size(190, 32);
+            this.metroButton12.Style = MetroFramework.MetroColorStyle.Brown;
+            this.metroButton12.TabIndex = 39;
+            this.metroButton12.Text = "اسماء طلاب - امتحان";
+            this.metroButton12.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.metroButton12.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton12.UseCustomBackColor = true;
+            this.metroButton12.UseCustomForeColor = true;
+            this.metroButton12.UseSelectable = true;
+            this.metroButton12.UseStyleColors = true;
+            this.metroButton12.Visible = false;
+            this.metroButton12.Click += new System.EventHandler(this.metroButton12_Click);
             // 
             // metroButton11
             // 
@@ -321,7 +347,6 @@
             this.metroButton9.UseCustomForeColor = true;
             this.metroButton9.UseSelectable = true;
             this.metroButton9.UseStyleColors = true;
-            this.metroButton9.Visible = false;
             this.metroButton9.Click += new System.EventHandler(this.metroButton9_Click);
             // 
             // metroButton8
@@ -383,7 +408,7 @@
             // 
             // metroButton5
             // 
-            this.metroButton5.BackColor = System.Drawing.Color.Blue;
+            this.metroButton5.BackColor = System.Drawing.Color.SeaGreen;
             this.metroButton5.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.metroButton5.Location = new System.Drawing.Point(381, 537);
@@ -399,18 +424,17 @@
             this.metroButton5.UseCustomForeColor = true;
             this.metroButton5.UseSelectable = true;
             this.metroButton5.UseStyleColors = true;
-            this.metroButton5.Visible = false;
             this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
             // 
             // metroButton1
             // 
-            this.metroButton1.BackColor = System.Drawing.Color.Blue;
+            this.metroButton1.BackColor = System.Drawing.Color.Crimson;
             this.metroButton1.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.metroButton1.Location = new System.Drawing.Point(764, 537);
+            this.metroButton1.Location = new System.Drawing.Point(777, 537);
             this.metroButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.metroButton1.Name = "metroButton1";
-            this.metroButton1.Size = new System.Drawing.Size(377, 55);
+            this.metroButton1.Size = new System.Drawing.Size(336, 55);
             this.metroButton1.Style = MetroFramework.MetroColorStyle.Brown;
             this.metroButton1.TabIndex = 31;
             this.metroButton1.Text = "حالات حرمان حسب المادة جميع المجالات ";
@@ -420,7 +444,6 @@
             this.metroButton1.UseCustomForeColor = true;
             this.metroButton1.UseSelectable = true;
             this.metroButton1.UseStyleColors = true;
-            this.metroButton1.Visible = false;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click_1);
             // 
             // metroButton4
@@ -457,6 +480,7 @@
             this.metroButton3.UseCustomForeColor = true;
             this.metroButton3.UseSelectable = true;
             this.metroButton3.UseStyleColors = true;
+            this.metroButton3.Visible = false;
             this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // metroButton2
@@ -475,6 +499,7 @@
             this.metroButton2.UseCustomForeColor = true;
             this.metroButton2.UseSelectable = true;
             this.metroButton2.UseStyleColors = true;
+            this.metroButton2.Visible = false;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // label1
@@ -555,5 +580,6 @@
         private MetroFramework.Controls.MetroButton metroButton9;
         private MetroFramework.Controls.MetroButton metroButton10;
         private MetroFramework.Controls.MetroButton metroButton11;
+        private MetroFramework.Controls.MetroButton metroButton12;
     }
 }

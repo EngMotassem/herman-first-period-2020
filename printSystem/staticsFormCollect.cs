@@ -639,5 +639,19 @@ namespace printSystem
             shownumbers.Show();
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void metroButton12_Click(object sender, EventArgs e)
+        {
+            showStudentNames f = new showStudentNames(cmbcourse.Text);
+
+
+
+            f.Show();
+        }
     }
 }

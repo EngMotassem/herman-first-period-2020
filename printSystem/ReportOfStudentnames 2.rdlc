@@ -952,7 +952,7 @@
         </Field>
         <Field Name="seatNo">
           <DataField>seatNo</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
+          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="stName">
           <DataField>stName</DataField>
@@ -998,21 +998,17 @@
           <DataField>type_str</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
-        <Field Name="st_type">
-          <DataField>st_type</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
         <Field Name="type_adesc">
           <DataField>type_adesc</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
+        <Field Name="st_type">
+          <DataField>st_type</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
         <Field Name="gender">
           <DataField>gender</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="decCode">
-          <DataField>decCode</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
+          <rd:TypeName>System.Int32</rd:TypeName>
         </Field>
         <Field Name="descCode">
           <DataField>descCode</DataField>
@@ -1033,11 +1029,11 @@
       </Fields>
       <rd:DataSetInfo>
         <rd:DataSetName>dataDataSet</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\Administrator\Desktop\desktop apps\herman  first period-20190103T044244Z-001\herman  first period\herman  first period\printSystem\dataDataSet.xsd</rd:SchemaPath>
-        <rd:TableName>decTbl1</rd:TableName>
+        <rd:SchemaPath>C:\Users\Hp\Desktop\herman  first period-20190103T044244Z-001\herman  first period\herman  first period\printSystem\dataDataSet.xsd</rd:SchemaPath>
+        <rd:TableName>decTbl3</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
-        <rd:TableAdapterName>decTbl1TableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterName>decTbl3TableAdapter</rd:TableAdapterName>
       </rd:DataSetInfo>
     </DataSet>
   </DataSets>
