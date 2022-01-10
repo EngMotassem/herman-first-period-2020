@@ -931,5 +931,10 @@ namespace printSystem
 
 
         }
+
+        private void devgrid_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

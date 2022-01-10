@@ -863,6 +863,7 @@ namespace printSystem
             this.devgrid.Size = new System.Drawing.Size(486, 492);
             this.devgrid.TabIndex = 4;
             this.devgrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.devgrid_CellClick);
+            this.devgrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.devgrid_CellContentClick);
             // 
             // Column1
             // 
