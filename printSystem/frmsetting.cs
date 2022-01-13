@@ -46,6 +46,9 @@ namespace printSystem
 
         dataDataSetTableAdapters.decTbl11TableAdapter adabdec11=new dataDataSetTableAdapters.decTbl11TableAdapter();
 
+        dataDataSetTableAdapters.decTbl3TableAdapter adabdec3 = new dataDataSetTableAdapters.decTbl3TableAdapter();
+
+
 
         dataDataSet.examTableDataTable list = new dataDataSet.examTableDataTable();
 
@@ -125,7 +128,14 @@ namespace printSystem
         }
 
 
+         private int existedinsameday(int seatno,string examName)
+        {
 
+            int count = adabdec3.FillByseatandexamname(dataDataSet1.decTbl3,seatno,examName);
+
+
+            return count;
+        }
 
         public int checknameandid()
         {
@@ -530,9 +540,19 @@ namespace printSystem
                         }
 
 
+                        else if (existedinsameday(Convert.ToInt32(txtseatNo.Text), cmbcourse.Text)>0)
+
+                        {
+
+                            MetroMessageBox.Show(this, "مسجل للطالب قرار حرمان لنفس اليوم", " موجود من قبل ", MessageBoxButtons.OK, MessageBoxIcon.Exclamation, 100);
+
+                        }
+
+
 
                         else
                         {
+
                             if (!hasOldReport(Convert.ToInt32(txtseatNo.Text)))
                             {
                                 if (addtodb(dt) == 1)

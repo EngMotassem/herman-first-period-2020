@@ -16,9 +16,9 @@ namespace printSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ouside());
+            Application.Run(new frmsetting());
+           // Application.Run(new ouside());
         }
-        //Application.Run(new frmsetting());
 
     }
 }

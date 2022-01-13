@@ -347,6 +347,7 @@
             this.metroButton9.UseCustomForeColor = true;
             this.metroButton9.UseSelectable = true;
             this.metroButton9.UseStyleColors = true;
+            this.metroButton9.Visible = false;
             this.metroButton9.Click += new System.EventHandler(this.metroButton9_Click);
             // 
             // metroButton8
@@ -424,6 +425,7 @@
             this.metroButton5.UseCustomForeColor = true;
             this.metroButton5.UseSelectable = true;
             this.metroButton5.UseStyleColors = true;
+            this.metroButton5.Visible = false;
             this.metroButton5.Click += new System.EventHandler(this.metroButton5_Click);
             // 
             // metroButton1
@@ -444,6 +446,7 @@
             this.metroButton1.UseCustomForeColor = true;
             this.metroButton1.UseSelectable = true;
             this.metroButton1.UseStyleColors = true;
+            this.metroButton1.Visible = false;
             this.metroButton1.Click += new System.EventHandler(this.metroButton1_Click_1);
             // 
             // metroButton4

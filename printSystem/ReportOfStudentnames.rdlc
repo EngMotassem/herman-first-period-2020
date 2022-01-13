@@ -12,10 +12,10 @@
               <Width>3.53459cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>4.12636cm</Width>
+              <Width>4.59204cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>4.97611cm</Width>
+              <Width>4.51044cm</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>2.24255cm</Width>
@@ -26,7 +26,7 @@
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.82049cm</Height>
+              <Height>0.73582cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -60,7 +60,7 @@
                             <TextRun>
                               <Value>=Fields!examName.Value</Value>
                               <Style>
-                                <FontFamily>PT Bold Heading</FontFamily>
+                                <FontFamily>Sultan Medium</FontFamily>
                                 <FontSize>13pt</FontSize>
                               </Style>
                             </TextRun>
@@ -83,6 +83,7 @@
                           <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
+                        <BackgroundColor>Khaki</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -100,7 +101,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.82049cm</Height>
+              <Height>0.73582cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -112,9 +113,11 @@
                           <TextRuns>
                             <TextRun>
                               <Value>=IIf(Fields!decType.Value="نموذج 1يعمل به في الفترة الدراسية الأولى"
-,"مجال دراسي ",IIf(Fields!decType.Value="نموذج3 يعمل به في الفترة الدراسية الأولى","اختبار تحريري ","جميع المجالات"))</Value>
+,"مجال دراسي ",IIf(Fields!decType.Value="نموذج3 يعمل به في الفترة الدراسية الأولى","امتحــان ","جميع المجالات"))</Value>
                               <Style>
+                                <FontFamily>arial</FontFamily>
                                 <FontSize>13pt</FontSize>
+                                <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -146,7 +149,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.82049cm</Height>
+              <Height>0.73582cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -367,7 +370,7 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.82049cm</Height>
+              <Height>0.73582cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
@@ -380,7 +383,6 @@
                             <TextRun>
                               <Value>=Fields!decNumber.Value</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -415,7 +417,6 @@
                             <TextRun>
                               <Value>=Fields!examscName.Value</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -450,7 +451,6 @@
                             <TextRun>
                               <Value>=Fields!scName.Value</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -485,7 +485,6 @@
                             <TextRun>
                               <Value>=Fields!stName.Value</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -520,7 +519,6 @@
                             <TextRun>
                               <Value>=Fields!seatNo.Value</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -555,7 +553,6 @@
                             <TextRun>
                               <Value>=RowNumber(Nothing)</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -598,7 +595,7 @@
             <TablixMember>
               <Group Name="examName">
                 <GroupExpressions>
-                  <GroupExpression>=Fields!examName.Value</GroupExpression>
+                  <GroupExpression>=Fields!descCode.Value</GroupExpression>
                 </GroupExpressions>
                 <PageBreak>
                   <BreakLocation>Between</BreakLocation>
@@ -606,8 +603,7 @@
               </Group>
               <SortExpressions>
                 <SortExpression>
-                  <Value>=Fields!examDate.Value</Value>
-                  <Direction>Descending</Direction>
+                  <Value>=Fields!decCode.Value</Value>
                 </SortExpression>
                 <SortExpression>
                   <Value>=Fields!decID.Value</Value>
@@ -666,9 +662,9 @@
         <RepeatColumnHeaders>true</RepeatColumnHeaders>
         <RepeatRowHeaders>true</RepeatRowHeaders>
         <DataSetName>DataSet1</DataSetName>
-        <Top>0.61816cm</Top>
+        <Top>0.34299cm</Top>
         <Left>0.21226cm</Left>
-        <Height>3.28196cm</Height>
+        <Height>2.94329cm</Height>
         <Width>17.64828cm</Width>
         <Style>
           <Border>
@@ -792,7 +788,27 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>                                             الفترة الدراسية الأولى     </Value>
+                  <Value xml:space="preserve">                                          </Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontFamily>fanan</FontFamily>
+                    <FontSize>14pt</FontSize>
+                    <TextDecoration>None</TextDecoration>
+                    <Color>#000000</Color>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value>   الفترة الدراسية الأولى    </Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontFamily>fanan</FontFamily>
+                    <FontSize>14pt</FontSize>
+                    <TextDecoration>Underline</TextDecoration>
+                    <Color>#000000</Color>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value xml:space="preserve"> </Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
                     <FontFamily>fanan</FontFamily>
@@ -857,7 +873,7 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value> ظرف </Value>
+                  <Value xml:space="preserve"> </Value>
                   <Style>
                     <FontSize>14pt</FontSize>
                   </Style>
