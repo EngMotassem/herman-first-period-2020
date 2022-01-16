@@ -653,5 +653,23 @@ namespace printSystem
 
             f.Show();
         }
+
+        private void metroButton13_Click(object sender, EventArgs e)
+        {
+            showlagnacount f = new showlagnacount(cmbcourse.Text);
+
+
+
+            f.Show();
+        }
+
+        private void metroButton14_Click(object sender, EventArgs e)
+        {
+            formal f = new formal(cmbcourse.Text);
+
+
+
+            f.Show();
+        }
     }
 }

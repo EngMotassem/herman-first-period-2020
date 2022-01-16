@@ -26233,7 +26233,7 @@ ORDER BY examDate DESC, decID DESC";
             this._commandCollection[4].Connection = this.Connection;
             this._commandCollection[4].CommandText = "SELECT decID, decNumber, decType, dec_desc, desKind, descCode, eduType, examDate," +
                 " examName, examday, examscName, region, scName, seatNo, stName, type_adesc, type" +
-                "_str, typecode\r\nFROM     decTbl\r\nWHERE  (examName = ?) \r\nORDER BY  decID";
+                "_str, typecode\r\nFROM     decTbl\r\nWHERE  (examName = ?)\r\nORDER BY decID";
             this._commandCollection[4].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[4].Parameters.Add(new global::System.Data.OleDb.OleDbParameter("examName", global::System.Data.OleDb.OleDbType.WChar, 255, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "examName", global::System.Data.DataRowVersion.Current, false, null));
             this._commandCollection[5] = new global::System.Data.OleDb.OleDbCommand();

@@ -2,38 +2,37 @@
 <Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
   <Body>
     <ReportItems>
-      <Tablix Name="Tablix3">
+      <Tablix Name="Tablix1">
         <TablixBody>
           <TablixColumns>
             <TablixColumn>
-              <Width>2.92509cm</Width>
+              <Width>1.30158cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>2.5cm</Width>
+              <Width>2.51058cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>4.40676cm</Width>
+              <Width>9.19572cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.49659cm</Width>
+              <Width>2.17897cm</Width>
             </TablixColumn>
           </TablixColumns>
           <TablixRows>
             <TablixRow>
-              <Height>0.6cm</Height>
+              <Height>0.46242cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox22">
+                    <Textbox Name="Textbox26">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>نوع الحرمان</Value>
+                              <Value>عدد </Value>
                               <Style>
-                                <FontSize>13pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -43,13 +42,12 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox22</rd:DefaultName>
+                      <rd:DefaultName>Textbox26</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>Gray</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGrey</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -60,16 +58,15 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox3">
+                    <Textbox Name="Textbox29">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>عدد الحرمانات</Value>
+                              <Value>المنطقة</Value>
                               <Style>
-                                <FontSize>13pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -79,13 +76,12 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <rd:DefaultName>Textbox29</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>Gray</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGrey</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -96,7 +92,7 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="Textbox24">
+                    <Textbox Name="Textbox27">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
@@ -105,7 +101,6 @@
                             <TextRun>
                               <Value>لجنة السير</Value>
                               <Style>
-                                <FontSize>13pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -115,13 +110,12 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>Textbox24</rd:DefaultName>
+                      <rd:DefaultName>Textbox27</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>Gray</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGrey</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -141,7 +135,6 @@
                             <TextRun>
                               <Value>م</Value>
                               <Style>
-                                <FontSize>13pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -154,10 +147,9 @@
                       <rd:DefaultName>Textbox28</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
+                          <Color>Gray</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>LightGrey</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -169,24 +161,21 @@
               </TablixCells>
             </TablixRow>
             <TablixRow>
-              <Height>0.82049cm</Height>
+              <Height>0.39892cm</Height>
               <TablixCells>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="decID">
+                    <Textbox Name="examscName">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=IIf(Fields!descCode.Value="2"
-,"مجال دراسي ",IIf(Fields!descCode.Value="1","اختبار تحريري ","جميع المجالات"))</Value>
+                              <Value>=CountDistinct(Fields!seatNo.Value)</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>9pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
-                                <TextDecoration>=IIf(Fields!descCode.Value="مجال دراسي","red","green")</TextDecoration>
-                                <Color>=IIf(Fields!descCode.Value="3","red","Black")</Color>
                               </Style>
                             </TextRun>
                           </TextRuns>
@@ -195,13 +184,11 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>decID</rd:DefaultName>
+                      <rd:DefaultName>examscName</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>=IIf(Fields!descCode.Value="3","Silver","Transparent")</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -212,16 +199,16 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="stName">
+                    <Textbox Name="region">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Count(Fields!examscName.Value)</Value>
+                              <Value>=Fields!region.Value</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>9pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -231,13 +218,11 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>stName</rd:DefaultName>
+                      <rd:DefaultName>region</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>=IIf(Fields!descCode.Value="3","Silver","Transparent")</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -248,7 +233,7 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="examscName1">
+                    <Textbox Name="examscName2">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
@@ -257,7 +242,7 @@
                             <TextRun>
                               <Value>=Fields!examscName.Value</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>9pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -267,13 +252,11 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>examscName1</rd:DefaultName>
+                      <rd:DefaultName>examscName2</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>=IIf(Fields!descCode.Value="3","Silver","Transparent")</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -284,16 +267,16 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="decID1">
+                    <Textbox Name="Textbox25">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=RowNumber("examName")</Value>
+                              <Value>=RunningValue(Fields!examscName.Value,countdistinct,"DataSet1")</Value>
                               <Style>
-                                <FontSize>12pt</FontSize>
+                                <FontSize>9pt</FontSize>
                                 <FontWeight>Bold</FontWeight>
                               </Style>
                             </TextRun>
@@ -303,13 +286,87 @@
                           </Style>
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>decID1</rd:DefaultName>
+                      <rd:DefaultName>Textbox25</rd:DefaultName>
                       <Style>
                         <Border>
-                          <Color>LightGrey</Color>
                           <Style>Solid</Style>
                         </Border>
-                        <BackgroundColor>=IIf(Fields!descCode.Value="3","Silver","Transparent")</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+              </TablixCells>
+            </TablixRow>
+            <TablixRow>
+              <Height>0.43067cm</Height>
+              <TablixCells>
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox3">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Count(Fields!seatNo.Value)</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox3</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>Khaki</BackgroundColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                    <ColSpan>3</ColSpan>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell />
+                <TablixCell />
+                <TablixCell>
+                  <CellContents>
+                    <Textbox Name="Textbox6">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>العدد الكلي</Value>
+                              <Style>
+                                <FontWeight>Bold</FontWeight>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style>
+                            <TextAlign>Center</TextAlign>
+                          </Style>
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Textbox6</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Style>Solid</Style>
+                        </Border>
+                        <BackgroundColor>LightGreen</BackgroundColor>
                         <PaddingLeft>2pt</PaddingLeft>
                         <PaddingRight>2pt</PaddingRight>
                         <PaddingTop>2pt</PaddingTop>
@@ -333,62 +390,58 @@
         <TablixRowHierarchy>
           <TablixMembers>
             <TablixMember>
-              <Group Name="examName">
+              <KeepWithGroup>After</KeepWithGroup>
+            </TablixMember>
+            <TablixMember>
+              <Group Name="examscName">
                 <GroupExpressions>
                   <GroupExpression>=Fields!examscName.Value</GroupExpression>
                 </GroupExpressions>
               </Group>
               <SortExpressions>
                 <SortExpression>
-                  <Value>=Fields!examscName.Value</Value>
+                  <Value>=Fields!region.Value</Value>
+                </SortExpression>
+                <SortExpression>
+                  <Value>=CountDistinct(Fields!seatNo.Value)</Value>
+                  <Direction>Descending</Direction>
                 </SortExpression>
               </SortExpressions>
               <TablixMembers>
-                <TablixMember>
-                  <Group Name="Group1">
-                    <GroupExpressions>
-                      <GroupExpression>=Ceiling(RowNumber("examName")/15)</GroupExpression>
-                    </GroupExpressions>
-                    <PageBreak>
-                      <BreakLocation>End</BreakLocation>
-                    </PageBreak>
-                  </Group>
-                  <TablixMembers>
-                    <TablixMember>
-                      <KeepWithGroup>After</KeepWithGroup>
-                    </TablixMember>
-                    <TablixMember>
-                      <Group Name="Details" />
-                    </TablixMember>
-                  </TablixMembers>
-                </TablixMember>
+                <TablixMember />
               </TablixMembers>
+            </TablixMember>
+            <TablixMember>
+              <KeepWithGroup>Before</KeepWithGroup>
             </TablixMember>
           </TablixMembers>
         </TablixRowHierarchy>
+        <RepeatColumnHeaders>true</RepeatColumnHeaders>
+        <RepeatRowHeaders>true</RepeatRowHeaders>
+        <KeepTogether>true</KeepTogether>
         <DataSetName>DataSet1</DataSetName>
-        <Top>0.61816cm</Top>
-        <Left>2.11211cm</Left>
-        <Height>1.42049cm</Height>
-        <Width>13.32844cm</Width>
+        <Top>0.17639cm</Top>
+        <Left>1.96866cm</Left>
+        <Height>1.29201cm</Height>
+        <Width>15.18685cm</Width>
         <Style>
           <Border>
-            <Style>None</Style>
+            <Style>Solid</Style>
           </Border>
         </Style>
       </Tablix>
     </ReportItems>
-    <Height>23.32812cm</Height>
+    <Height>23.43395cm</Height>
     <Style>
       <Border>
         <Style>Double</Style>
       </Border>
     </Style>
   </Body>
-  <Width>19.43108cm</Width>
+  <Width>18.01291cm</Width>
   <Page>
     <PageHeader>
-      <Height>3.24238cm</Height>
+      <Height>3.01335cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -396,8 +449,8 @@
           <Source>Embedded</Source>
           <Value>AT5Luc8l</Value>
           <Sizing>FitProportional</Sizing>
-          <Top>0.45543cm</Top>
-          <Left>15.09054cm</Left>
+          <Top>0.17323cm</Top>
+          <Left>14.97654cm</Left>
           <Height>1.95792cm</Height>
           <Width>2.77cm</Width>
           <Style>
@@ -413,18 +466,17 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>                                                           وزارة التربية </Value>
+                  <Value>        وزارة التربية </Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
-                    <FontFamily>fanan</FontFamily>
-                    <FontSize>13pt</FontSize>
+                    <FontFamily>Sultan Medium</FontFamily>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
               <Style>
-                <TextAlign>Right</TextAlign>
+                <TextAlign>Center</TextAlign>
               </Style>
             </Paragraph>
             <Paragraph>
@@ -433,17 +485,14 @@
                   <Value>لجنة النظام والمراقبة</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
-                    <FontFamily>fanan</FontFamily>
-                    <FontSize>13pt</FontSize>
+                    <FontFamily>Sultan Medium</FontFamily>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
-              <RightIndent>0.5in</RightIndent>
               <Style>
                 <TextAlign>Center</TextAlign>
-                <LineHeight>12pt</LineHeight>
               </Style>
             </Paragraph>
             <Paragraph>
@@ -452,17 +501,14 @@
                   <Value>كنترول الصف الثاني عشر القسم الأدبي والمعهد الديني</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
-                    <FontFamily>fanan</FontFamily>
-                    <FontSize>13pt</FontSize>
+                    <FontFamily>Sultan Medium</FontFamily>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
-              <RightIndent>0.5in</RightIndent>
               <Style>
-                <TextAlign>Right</TextAlign>
-                <LineHeight>12pt</LineHeight>
+                <TextAlign>Center</TextAlign>
               </Style>
             </Paragraph>
             <Paragraph>
@@ -471,17 +517,26 @@
                   <Value>العام الدراسي</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
-                    <FontFamily>fanan</FontFamily>
-                    <FontSize>13pt</FontSize>
+                    <FontFamily>Sultan Medium</FontFamily>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
                   </Style>
                 </TextRun>
                 <TextRun>
-                  <Value> 2021-2022 م</Value>
+                  <Value> 2021-2022 </Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
-                    <FontSize>13pt</FontSize>
+                    <FontFamily>arial</FontFamily>
+                    <FontWeight>Normal</FontWeight>
+                    <TextDecoration>None</TextDecoration>
+                    <Color>#000000</Color>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value>م</Value>
+                  <Style>
+                    <FontStyle>Normal</FontStyle>
+                    <FontFamily>Sultan Medium</FontFamily>
                     <FontWeight>Normal</FontWeight>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
@@ -497,18 +552,17 @@
             <Paragraph>
               <TextRuns>
                 <TextRun>
-                  <Value>                                             الفترة الدراسية الأولى</Value>
+                  <Value>                         الفترة الدراسية الأولى</Value>
                   <Style>
                     <FontStyle>Normal</FontStyle>
-                    <FontFamily>fanan</FontFamily>
-                    <FontSize>14pt</FontSize>
+                    <FontFamily>Sultan Medium</FontFamily>
                     <TextDecoration>None</TextDecoration>
                     <Color>#000000</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
               <Style>
-                <TextAlign>Right</TextAlign>
+                <TextAlign>Center</TextAlign>
               </Style>
             </Paragraph>
             <Paragraph>
@@ -522,34 +576,19 @@
                   </Style>
                 </TextRun>
                 <TextRun>
-                  <Value> --  </Value>
+                  <Value xml:space="preserve"> </Value>
                   <Style>
                     <FontFamily>arial</FontFamily>
                     <FontSize>13pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
                   </Style>
                 </TextRun>
                 <TextRun>
                   <Value>=Fields!examDate.Value</Value>
                   <Style>
+                    <FontFamily>arial</FontFamily>
                     <FontSize>12pt</FontSize>
                     <FontWeight>Bold</FontWeight>
-                  </Style>
-                </TextRun>
-                <TextRun>
-                  <Value> م</Value>
-                  <Style>
-                    <FontSize>12pt</FontSize>
-                    <FontWeight>Bold</FontWeight>
-                  </Style>
-                </TextRun>
-                <TextRun>
-                  <Value xml:space="preserve">   </Value>
-                  <Style>
-                    <FontStyle>Normal</FontStyle>
-                    <FontFamily>fanan</FontFamily>
-                    <FontSize>14pt</FontSize>
-                    <TextDecoration>None</TextDecoration>
-                    <Color>#000000</Color>
                   </Style>
                 </TextRun>
               </TextRuns>
@@ -559,9 +598,10 @@
             </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox2</rd:DefaultName>
-          <Left>4.85463cm</Left>
-          <Height>3.10127cm</Height>
-          <Width>9.87213cm</Width>
+          <Top>0.01264in</Top>
+          <Left>4.14538cm</Left>
+          <Height>2.8754cm</Height>
+          <Width>9.11013cm</Width>
           <ZIndex>1</ZIndex>
           <Style>
             <Border>
@@ -578,7 +618,7 @@
           <Source>Embedded</Source>
           <Value>controladabilogo</Value>
           <Sizing>FitProportional</Sizing>
-          <Top>0.15972in</Top>
+          <Top>0.07514in</Top>
           <Left>0.56373cm</Left>
           <Height>1.99318cm</Height>
           <Width>2.77cm</Width>
@@ -597,7 +637,7 @@
       </Style>
     </PageHeader>
     <PageFooter>
-      <Height>1.56986cm</Height>
+      <Height>1.06186cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -610,13 +650,13 @@
                 <TextRun>
                   <Value> ورقة </Value>
                   <Style>
-                    <FontSize>14pt</FontSize>
+                    <FontSize>11pt</FontSize>
                   </Style>
                 </TextRun>
                 <TextRun>
                   <Value>=Globals.PageNumber &amp; " من " &amp; Globals.TotalPages</Value>
                   <Style>
-                    <FontSize>14pt</FontSize>
+                    <FontSize>11pt</FontSize>
                   </Style>
                 </TextRun>
               </TextRuns>
@@ -628,7 +668,7 @@
           <rd:DefaultName>Textbox1</rd:DefaultName>
           <Top>0.17639cm</Top>
           <Left>7.8954cm</Left>
-          <Height>0.75875cm</Height>
+          <Height>0.54708cm</Height>
           <Width>3.18792cm</Width>
           <Style>
             <Border>

@@ -125,6 +125,12 @@
     <Compile Include="finalFormmahder.Designer.cs">
       <DependentUpon>finalFormmahder.cs</DependentUpon>
     </Compile>
+    <Compile Include="formal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formal.Designer.cs">
+      <DependentUpon>formal.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormStatics.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,6 +241,12 @@
     <Compile Include="ShowChart.Designer.cs">
       <DependentUpon>ShowChart.cs</DependentUpon>
     </Compile>
+    <Compile Include="showlagnacount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="showlagnacount.Designer.cs">
+      <DependentUpon>showlagnacount.cs</DependentUpon>
+    </Compile>
     <Compile Include="ShowNewRe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -289,6 +301,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="finalFormmahder.resx">
       <DependentUpon>finalFormmahder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formal.resx">
+      <DependentUpon>formal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormStatics.resx">
       <DependentUpon>FormStatics.cs</DependentUpon>
@@ -381,6 +396,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ShowChart.resx">
       <DependentUpon>ShowChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="showlagnacount.resx">
+      <DependentUpon>showlagnacount.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ShowNewRe.resx">
       <DependentUpon>ShowNewRe.cs</DependentUpon>
