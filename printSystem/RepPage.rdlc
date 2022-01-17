@@ -615,9 +615,9 @@
         </Paragraphs>
         <rd:DefaultName>examName</rd:DefaultName>
         <Top>5.60599cm</Top>
-        <Left>0.69357cm</Left>
+        <Left>0.3175cm</Left>
         <Height>0.91546cm</Height>
-        <Width>9.5767cm</Width>
+        <Width>13.8051cm</Width>
         <ZIndex>15</ZIndex>
         <Style>
           <Border>
@@ -639,7 +639,7 @@
               <TextRun>
                 <Value>=First(Fields!subject.Value, "DataSet1")</Value>
                 <Style>
-                  <FontSize>18pt</FontSize>
+                  <FontSize>16pt</FontSize>
                   <FontWeight>Bold</FontWeight>
                 </Style>
               </TextRun>
@@ -651,9 +651,9 @@
         </Paragraphs>
         <rd:DefaultName>examName</rd:DefaultName>
         <Top>16.87604cm</Top>
-        <Left>6.93385cm</Left>
+        <Left>0.90158cm</Left>
         <Height>0.9525cm</Height>
-        <Width>8.33948cm</Width>
+        <Width>14.37175cm</Width>
         <ZIndex>16</ZIndex>
         <Style>
           <Border>
@@ -978,10 +978,10 @@
         <Source>Embedded</Source>
         <Value>takenPaperLogo</Value>
         <Sizing>FitProportional</Sizing>
-        <Top>6.26333in</Top>
+        <Top>7.01564in</Top>
         <Left>0.44661cm</Left>
-        <Height>5.95311cm</Height>
-        <Width>6.22017cm</Width>
+        <Height>4.04224cm</Height>
+        <Width>5.437cm</Width>
         <ZIndex>23</ZIndex>
         <Style>
           <Border>
@@ -1011,7 +1011,7 @@
         </Paragraphs>
         <rd:DefaultName>Textbox1</rd:DefaultName>
         <Top>2.20708in</Top>
-        <Left>4.11286in</Left>
+        <Left>5.6825in</Left>
         <Height>0.36042in</Height>
         <Width>1.36459in</Width>
         <ZIndex>24</ZIndex>

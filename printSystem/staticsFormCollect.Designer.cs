@@ -38,6 +38,7 @@
             this.cmbcourse = new MetroFramework.Controls.MetroComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.metroButton14 = new MetroFramework.Controls.MetroButton();
             this.metroButton13 = new MetroFramework.Controls.MetroButton();
             this.metroButton12 = new MetroFramework.Controls.MetroButton();
             this.metroButton11 = new MetroFramework.Controls.MetroButton();
@@ -54,7 +55,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.metroComboBox1 = new MetroFramework.Controls.MetroComboBox();
             this.dataDataSet1 = new printSystem.dataDataSet();
-            this.metroButton14 = new MetroFramework.Controls.MetroButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataDataSet1)).BeginInit();
             this.SuspendLayout();
@@ -75,7 +75,6 @@
             this.AreaMetro.UseCustomForeColor = true;
             this.AreaMetro.UseSelectable = true;
             this.AreaMetro.UseStyleColors = true;
-            this.AreaMetro.Visible = false;
             this.AreaMetro.Click += new System.EventHandler(this.AreaMetro_Click);
             // 
             // txtDay
@@ -131,7 +130,6 @@
             this.subjectStaticsmetroButton.UseCustomForeColor = true;
             this.subjectStaticsmetroButton.UseSelectable = true;
             this.subjectStaticsmetroButton.UseStyleColors = true;
-            this.subjectStaticsmetroButton.Visible = false;
             this.subjectStaticsmetroButton.Click += new System.EventHandler(this.subjectStaticsmetroButton_Click);
             // 
             // txtDate
@@ -271,6 +269,26 @@
             this.panel1.Size = new System.Drawing.Size(1173, 608);
             this.panel1.TabIndex = 25;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // metroButton14
+            // 
+            this.metroButton14.BackColor = System.Drawing.Color.Navy;
+            this.metroButton14.FontSize = MetroFramework.MetroButtonSize.Tall;
+            this.metroButton14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.metroButton14.Location = new System.Drawing.Point(950, 24);
+            this.metroButton14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.metroButton14.Name = "metroButton14";
+            this.metroButton14.Size = new System.Drawing.Size(190, 32);
+            this.metroButton14.Style = MetroFramework.MetroColorStyle.Brown;
+            this.metroButton14.TabIndex = 41;
+            this.metroButton14.Text = "مدارس ";
+            this.metroButton14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.metroButton14.Theme = MetroFramework.MetroThemeStyle.Dark;
+            this.metroButton14.UseCustomBackColor = true;
+            this.metroButton14.UseCustomForeColor = true;
+            this.metroButton14.UseSelectable = true;
+            this.metroButton14.UseStyleColors = true;
+            this.metroButton14.Click += new System.EventHandler(this.metroButton14_Click);
             // 
             // metroButton13
             // 
@@ -506,7 +524,6 @@
             this.metroButton3.UseCustomForeColor = true;
             this.metroButton3.UseSelectable = true;
             this.metroButton3.UseStyleColors = true;
-            this.metroButton3.Visible = false;
             this.metroButton3.Click += new System.EventHandler(this.metroButton3_Click);
             // 
             // metroButton2
@@ -525,7 +542,6 @@
             this.metroButton2.UseCustomForeColor = true;
             this.metroButton2.UseSelectable = true;
             this.metroButton2.UseStyleColors = true;
-            this.metroButton2.Visible = false;
             this.metroButton2.Click += new System.EventHandler(this.metroButton2_Click);
             // 
             // label1
@@ -562,26 +578,6 @@
             // 
             this.dataDataSet1.DataSetName = "dataDataSet";
             this.dataDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // metroButton14
-            // 
-            this.metroButton14.BackColor = System.Drawing.Color.Navy;
-            this.metroButton14.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.metroButton14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.metroButton14.Location = new System.Drawing.Point(950, 24);
-            this.metroButton14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.metroButton14.Name = "metroButton14";
-            this.metroButton14.Size = new System.Drawing.Size(190, 32);
-            this.metroButton14.Style = MetroFramework.MetroColorStyle.Brown;
-            this.metroButton14.TabIndex = 41;
-            this.metroButton14.Text = "مدارس ";
-            this.metroButton14.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.metroButton14.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroButton14.UseCustomBackColor = true;
-            this.metroButton14.UseCustomForeColor = true;
-            this.metroButton14.UseSelectable = true;
-            this.metroButton14.UseStyleColors = true;
-            this.metroButton14.Click += new System.EventHandler(this.metroButton14_Click);
             // 
             // staticsFormCollect
             // 
