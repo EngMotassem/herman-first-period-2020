@@ -16,7 +16,8 @@ namespace printSystem
         {
             InitializeComponent();
 
-            this.decTbl3TableAdapter.FillByexam(this.dataDataSet.decTbl3,text);
+            // this.decTbl3TableAdapter.FillByexam(this.dataDataSet.decTbl3,text);
+            this.decTbl3TableAdapter.Fill(this.dataDataSet.decTbl3);
 
             this.reportViewer1.RefreshReport();
         }

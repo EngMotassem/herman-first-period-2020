@@ -361,6 +361,7 @@
                               <TextRun>
                                 <Value>=Fields!examDate.Value</Value>
                                 <Style>
+                                  <FontSize>8pt</FontSize>
                                   <FontWeight>Bold</FontWeight>
                                 </Style>
                               </TextRun>
@@ -582,7 +583,7 @@
         <LayoutDirection>RTL</LayoutDirection>
         <DataSetName>DataSet1</DataSetName>
         <Top>1.46618cm</Top>
-        <Left>3.93961cm</Left>
+        <Left>1.19686cm</Left>
         <Height>3.10556cm</Height>
         <Width>7.56362cm</Width>
         <ZIndex>1</ZIndex>

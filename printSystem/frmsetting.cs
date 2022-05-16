@@ -203,15 +203,15 @@ namespace printSystem
 
                         int typecode = Convert.ToInt32(dataDataSet1.studentData.Rows[0]["typecode"].ToString());
                         if (cmbcourse.SelectedIndex == -1)
-                             
-                          //  adabexam.FillBytype(dataDataSet1.examTable, typecode);
-                        adabexam.FillByToday(dataDataSet1.examTable, typecode,DateTime.Today );
+
+                            //adabexam.FillBytype(dataDataSet1.examTable, typecode);
+                            adabexam.FillByToday(dataDataSet1.examTable, typecode, DateTime.Today);
 
 
 
                         if (!IsEqualprevDep())
 
-                            // adabexam.FillBytype(dataDataSet1.examTable, typecode);
+                            //adabexam.FillBytype(dataDataSet1.examTable, typecode);
                             adabexam.FillByToday(dataDataSet1.examTable, typecode, DateTime.Today);
 
 

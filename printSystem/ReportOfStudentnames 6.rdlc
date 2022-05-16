@@ -400,11 +400,11 @@
               </Group>
               <SortExpressions>
                 <SortExpression>
-                  <Value>=Fields!region.Value</Value>
-                </SortExpression>
-                <SortExpression>
                   <Value>=CountDistinct(Fields!seatNo.Value)</Value>
                   <Direction>Descending</Direction>
+                </SortExpression>
+                <SortExpression>
+                  <Value>=Fields!region.Value</Value>
                 </SortExpression>
               </SortExpressions>
               <TablixMembers>
@@ -441,7 +441,7 @@
   <Width>18.01291cm</Width>
   <Page>
     <PageHeader>
-      <Height>3.01335cm</Height>
+      <Height>3.30087cm</Height>
       <PrintOnFirstPage>true</PrintOnFirstPage>
       <PrintOnLastPage>true</PrintOnLastPage>
       <ReportItems>
@@ -565,42 +565,11 @@
                 <TextAlign>Center</TextAlign>
               </Style>
             </Paragraph>
-            <Paragraph>
-              <TextRuns>
-                <TextRun>
-                  <Value>=Fields!examName.Value</Value>
-                  <Style>
-                    <FontFamily>arial</FontFamily>
-                    <FontSize>13pt</FontSize>
-                    <FontWeight>Bold</FontWeight>
-                  </Style>
-                </TextRun>
-                <TextRun>
-                  <Value xml:space="preserve"> </Value>
-                  <Style>
-                    <FontFamily>arial</FontFamily>
-                    <FontSize>13pt</FontSize>
-                    <FontWeight>Bold</FontWeight>
-                  </Style>
-                </TextRun>
-                <TextRun>
-                  <Value>=Fields!examDate.Value</Value>
-                  <Style>
-                    <FontFamily>arial</FontFamily>
-                    <FontSize>12pt</FontSize>
-                    <FontWeight>Bold</FontWeight>
-                  </Style>
-                </TextRun>
-              </TextRuns>
-              <Style>
-                <TextAlign>Center</TextAlign>
-              </Style>
-            </Paragraph>
           </Paragraphs>
           <rd:DefaultName>Textbox2</rd:DefaultName>
           <Top>0.01264in</Top>
           <Left>4.14538cm</Left>
-          <Height>2.8754cm</Height>
+          <Height>2.35126cm</Height>
           <Width>9.11013cm</Width>
           <ZIndex>1</ZIndex>
           <Style>
@@ -629,6 +598,88 @@
             </Border>
           </Style>
         </Image>
+        <Textbox Name="Textbox4">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=Fields!examName.Value</Value>
+                  <Style>
+                    <FontFamily>arial</FontFamily>
+                    <FontSize>13pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox4</rd:DefaultName>
+          <Top>2.55976cm</Top>
+          <Left>7.8954cm</Left>
+          <Height>0.6cm</Height>
+          <Width>3.72579cm</Width>
+          <ZIndex>3</ZIndex>
+          <Visibility>
+            <Hidden>true</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
+        <Textbox Name="Textbox5">
+          <CanGrow>true</CanGrow>
+          <KeepTogether>true</KeepTogether>
+          <Paragraphs>
+            <Paragraph>
+              <TextRuns>
+                <TextRun>
+                  <Value>=First(Fields!examDate.Value, "DataSet1")</Value>
+                  <Style>
+                    <FontFamily>arial</FontFamily>
+                    <FontSize>13pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+                <TextRun>
+                  <Value xml:space="preserve"> </Value>
+                  <Style>
+                    <FontFamily>arial</FontFamily>
+                    <FontSize>13pt</FontSize>
+                    <FontWeight>Bold</FontWeight>
+                  </Style>
+                </TextRun>
+              </TextRuns>
+              <Style />
+            </Paragraph>
+          </Paragraphs>
+          <rd:DefaultName>Textbox4</rd:DefaultName>
+          <Top>2.55976cm</Top>
+          <Left>4.71289cm</Left>
+          <Height>0.6cm</Height>
+          <Width>3.00612cm</Width>
+          <ZIndex>4</ZIndex>
+          <Visibility>
+            <Hidden>true</Hidden>
+          </Visibility>
+          <Style>
+            <Border>
+              <Style>None</Style>
+            </Border>
+            <PaddingLeft>2pt</PaddingLeft>
+            <PaddingRight>2pt</PaddingRight>
+            <PaddingTop>2pt</PaddingTop>
+            <PaddingBottom>2pt</PaddingBottom>
+          </Style>
+        </Textbox>
       </ReportItems>
       <Style>
         <Border>
